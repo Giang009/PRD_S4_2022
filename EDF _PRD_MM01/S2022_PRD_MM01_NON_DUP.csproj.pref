@@ -1,0 +1,23 @@
+﻿<Properties>
+  <Array name="active">
+    <Element value="S2022_PRD_MM01_NON_DUP.rxtst" />
+  </Array>
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="S2022_PRD_MM01_NON_DUP.rxtst" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Properties name="customTool">
+      <fileNames value="" />
+      <runOnBuild value="False" />
+    </Properties>
+    <Array name="recentusercodeselections">
+      <Element value="EDF__PRD_MM01.Admin.Background_Configuration_OFF.Set_IsActive_OFF()" />
+      <Element value="EDF__PRD_MM01.Admin.Background_Configuration_OFF.Set_IsActive_OFF()" />
+      <Element value="EDF__PRD_MM01.Admin.By_Pass_Stewards_OFF.Set_To_False_ByPass(RepoItemInfo inputtagInfo)" />
+      <Element value="EDF__PRD_MM01.Admin.By_Pass_Stewards_ON.Set_To_True_ByPass(RepoItemInfo inputtagInfo)" />
+      <Element value="EDF__PRD_MM01.Admin.By_Pass_Stewards_OFF.Set_To_False_ByPass()" />
+      <Element value="EDF__PRD_MM01.Admin.By_Pass_Stewards_ON.Set_To_True_ByPass()" />
+    </Array>
+  </Properties>
+</Properties>

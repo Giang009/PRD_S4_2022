@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="e4612e54-c2ff-4b2c-8819-e1f5d570235f"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="SelectAdmin"
+	namespace="EDF__PRD_MM01.Admin">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="6abb4b91-3c6e-47d0-9ac0-442f1e09bdcd"
+		sx="1440"
+		sy="634"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="a560f096-95d8-4a8c-bf00-29faf74f9d11"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='dole-d4h-simplemdg-web.cfapps.ap11.hana.ondemand.com' and @browsername='Firefox']//span[#'adminApp']/a[@innertext='Administration']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="af72e6f7-ffab-48c1-93b9-59af1cd0811b"
+	name="S2022_PRD_MM01_NON_DUPRepository"
+	relativepath="..\S2022_PRD_MM01_NON_DUPRepository.rxrep">
+		<codegen
+		classname="S2022_PRD_MM01_NON_DUPRepository"
+		namespace="EDF__PRD_MM01">
+		</codegen>
+		<rootfolder
+		id="58c69a08-db87-47ad-a91d-c074bb0bd883"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		SelectAdmin.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

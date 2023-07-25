@@ -1,0 +1,20 @@
+﻿<Properties>
+  <Array name="active" />
+  <ActiveConfiguration value="Debug" />
+  <ActivePlatform value="x86" />
+  <Array name="bookmarks" />
+  <Array name="files" />
+  <SerializedValue name="ModuleBrowserState">
+    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <string>{54CF215D-884D-411F-BC12-0F03A36F1368}</string>
+      <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
+      <string>ec6d2144-2913-44d4-8955-dbfc696655bf</string>
+      <string>5f1d61a3-af06-414f-a6cb-d07869e500b0</string>
+      <string>dbd98177-cf8d-44b5-9127-58643b989d01</string>
+      <string>17bf6639-9937-478d-80a4-56c1e5712d80</string>
+      <string>db46dd20-7710-41f0-94ab-b451c67d0861</string>
+    </ArrayOfString>
+  </SerializedValue>
+  <ProjectBrowserState value="[Solution S2022_PRD_MM01_NON_DUP[Solution Items[]S2022_PRD_MM01_NON_DUP[Verify_Status[]]]]&#xD;&#xA;Solution S2022_PRD_MM01_NON_DUP\S2022_PRD_MM01_NON_DUP\S2022_PRD_MM01_NON_DUP.rxtst&#xD;&#xA;Solution S2022_PRD_MM01_NON_DUP\Solution Items\RanorexLicenseManager.lic" />
+  <StartupProject value="{54CF215D-884D-411F-BC12-0F03A36F1368}" />
+</Properties>

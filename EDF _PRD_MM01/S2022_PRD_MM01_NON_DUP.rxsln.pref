@@ -1,0 +1,17 @@
+﻿<Properties>
+  <Array name="active" />
+  <ActiveConfiguration value="Debug" />
+  <ActivePlatform value="x86" />
+  <Array name="bookmarks" />
+  <Array name="files" />
+  <SerializedValue name="ModuleBrowserState">
+    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <string>{54CF215D-884D-411F-BC12-0F03A36F1368}</string>
+      <string>6e12a760-6636-488c-b3e9-7d256aa61ae5</string>
+      <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
+      <string>dbd98177-cf8d-44b5-9127-58643b989d01</string>
+    </ArrayOfString>
+  </SerializedValue>
+  <ProjectBrowserState value="[Solution EDF _PRD_MM01[EDF _PRD_MM01[Input_Data[]]]]&#xD;&#xA;Solution EDF _PRD_MM01\EDF _PRD_MM01\EDF__PRD_MM01.rxtst&#xD;&#xA;Solution EDF _PRD_MM01\EDF _PRD_MM01" />
+  <StartupProject value="{54CF215D-884D-411F-BC12-0F03A36F1368}" />
+</Properties>

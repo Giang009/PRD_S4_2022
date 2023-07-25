@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc
+rxversion="10.7">
+	<testsuiteentryhierarchy>
+		<flatlistofchildren>
+			<modulegroups
+			id="fcc8fac4-3a70-4068-87fb-1c1543de0755"
+			name="S2022_PRD_MM01_NON_DUP">
+			</modulegroups>
+		</flatlistofchildren>
+		<childhierarchy>
+			<modulegroups
+			id="fcc8fac4-3a70-4068-87fb-1c1543de0755"
+			name="S2022_PRD_MM01_NON_DUP">
+			</modulegroups>
+		</childhierarchy>
+	</testsuiteentryhierarchy>
+</modulegroupdoc>

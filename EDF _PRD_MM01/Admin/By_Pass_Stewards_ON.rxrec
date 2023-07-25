@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="b569ac8e-e161-4ba9-8384-7cb3c98e8df1"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="By_Pass_Stewards_ON"
+	namespace="EDF__PRD_MM01.Admin">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		classname="By_Pass_Stewards_ON"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="Set_To_True_ByPass"
+		namespace="EDF__PRD_MM01.Admin"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="3d0c02e3-32ec-4ce6-ad05-469f765eb1d1">
+				<argument
+				argname="inputtagInfo"
+				id="95c5e501-0f85-4b20-a758-26dc326cee13">
+					<argvaluetype>
+						Ranorex.Core.Repository.RepoItemInfo, Ranorex.Core, Culture=neutral
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+					<info
+					id="5eba9029-4db7-4900-b4a4-b52e6e20fff7"
+					sourcename="ItemRecorderEditor">
+						<path>
+							/dom[@domain='dole-qas-simplemdg-web.cfapps.ap11.hana.ondemand.com' and @browsername='Firefox']//div[@class='sapMITBContainerContent']/div/div/div/div/div/div/div/div[]/div[@title='Bypass Steward Review']/div/input[@type='checkbox']
+						</path>
+						<robustPath>
+						</robustPath>
+					</info>
+				</argument>
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	id="af72e6f7-ffab-48c1-93b9-59af1cd0811b"
+	name="S2022_PRD_MM01_NON_DUPRepository"
+	relativepath="..\S2022_PRD_MM01_NON_DUPRepository.rxrep">
+		<codegen
+		classname="S2022_PRD_MM01_NON_DUPRepository"
+		namespace="EDF__PRD_MM01">
+		</codegen>
+		<rootfolder
+		id="58c69a08-db87-47ad-a91d-c074bb0bd883"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		By_Pass_Stewards_ON.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

@@ -1,0 +1,12 @@
+﻿<Properties>
+  <Array name="active" />
+  <ActiveConfiguration value="Debug" />
+  <ActivePlatform value="x86" />
+  <Array name="bookmarks" />
+  <Array name="files" />
+  <SerializedValue name="ModuleBrowserState">
+    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" />
+  </SerializedValue>
+  <ProjectBrowserState value="[Solution QAS _PRD_MM01[Solution Items[]QAS _PRD_MM01[]]]&#xD;&#xA;Solution QAS _PRD_MM01\QAS _PRD_MM01\QAS__PRD_MM01.rxtst&#xD;&#xA;Solution QAS _PRD_MM01" />
+  <StartupProject value="{54CF215D-884D-411F-BC12-0F03A36F1368}" />
+</Properties>

@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="a3a75050-7e77-4302-a6cb-dfc15b640c29"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseBrowser"
+	namespace="EDF__PRD_MM01">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="0ms"
+		method="CloseWindow"
+		optional="False"
+		searchpropertyid="1711edd3-f362-4124-8980-3efff06a74d0">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="76c70860-1c36-4a68-8521-bd157d4b6d94"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@processname='chrome']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="af72e6f7-ffab-48c1-93b9-59af1cd0811b"
+	name="S2022_PRD_MM01_NON_DUPRepository"
+	relativepath="S2022_PRD_MM01_NON_DUPRepository.rxrep">
+		<codegen
+		classname="S2022_PRD_MM01_NON_DUPRepository"
+		namespace="EDF__PRD_MM01">
+		</codegen>
+		<rootfolder
+		id="58c69a08-db87-47ad-a91d-c074bb0bd883"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseBrowser.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

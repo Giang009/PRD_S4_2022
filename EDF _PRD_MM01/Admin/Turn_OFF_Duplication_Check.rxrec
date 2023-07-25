@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="5a885c93-abcd-4113-8038-8c34e7c8edef"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Turn_OFF_Duplication_Check"
+	namespace="EDF__PRD_MM01.Admin">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		classname="Turn_OFF_Duplication_Check"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="Set_To_False"
+		namespace="EDF__PRD_MM01.Admin"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="88e559c8-964c-4afe-a456-12433a5ca90e">
+				<argument
+				argname="inputtagInfo"
+				id="85f915b6-142d-468d-91c0-59bff4a0f11e">
+					<argvaluetype>
+						Ranorex.Core.Repository.RepoItemInfo, Ranorex.Core, Culture=neutral
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+					<info
+					id="dcc9f401-3197-4714-bc07-9c60129a0c6d"
+					sourcename="ItemRecorderEditor">
+						<path>
+							/dom[@domain='dole-qas-simplemdg-web.cfapps.ap11.hana.ondemand.com' and @browsername='Firefox']//div[@class='sapMITBContainerContent']/div/div/div/div/div/div/div/div[]/div[@title&gt;'Show Duplication Check As']/div/input[@type='checkbox']
+						</path>
+						<robustPath>
+						</robustPath>
+					</info>
+				</argument>
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	id="af72e6f7-ffab-48c1-93b9-59af1cd0811b"
+	name="S2022_PRD_MM01_NON_DUPRepository"
+	relativepath="..\S2022_PRD_MM01_NON_DUPRepository.rxrep">
+		<codegen
+		classname="S2022_PRD_MM01_NON_DUPRepository"
+		namespace="EDF__PRD_MM01">
+		</codegen>
+		<rootfolder
+		id="58c69a08-db87-47ad-a91d-c074bb0bd883"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Turn_OFF_Duplication_Check.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

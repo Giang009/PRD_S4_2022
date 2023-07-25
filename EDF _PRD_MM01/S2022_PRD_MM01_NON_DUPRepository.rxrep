@@ -1,0 +1,2914 @@
+﻿<repository
+id="af72e6f7-ffab-48c1-93b9-59af1cd0811b"
+name="S2022_PRD_MM01_NON_DUPRepository">
+	<codegen
+	classname="S2022_PRD_MM01_NON_DUPRepository"
+	namespace="EDF__PRD_MM01">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="58c69a08-db87-47ad-a91d-c074bb0bd883"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="76c70860-1c36-4a68-8521-bd157d4b6d94"
+		isrooted="True"
+		name="SimpleMDG"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="6276069f-981e-4a81-b1ef-d2581051f430"
+			name="btn_Application"
+			refimgid="fb8e8d60-84f1-401e-8acb-e2b9bb3a690e"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//span[#'mainApp']/a[@innertext='Application']
+			</item>
+			<folder
+			capname="unknown"
+			id="9a6526f5-a5cb-4e14-83a1-940d65cdf5d6"
+			isrooted="False"
+			name="Menu"
+			searchtimeout="0ms">
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="31fa6227-18a5-441b-aeba-a412f0fe1872"
+				name="mn_MyTasks"
+				refimgid="922aca09-0923-4f31-9d73-e2df6168a926"
+				robustPath="/dom[@domain='manual-test-ecc-simplemdg-web.cfapps.eu10.hana.ondemand.com']//body[#'simplemdg']//span[@innertext='My Tasks ⁝']"
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//body[#'simplemdg']/div[3]//section/div/div[1]/header/div/div/div[2]/div[1]/div[4]/div[1]/div[1]/span[@innertext='My Tasks ⁝']
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="580d29d8-6233-4653-a03f-29ae03c716cf"
+				name="mn_ChangeRequests"
+				refimgid="3f1e6ad3-8525-4cb2-b7b3-1e10d2f075de"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div/div/div/div/div/div/div[2]//span[@innertext='Change Requests' and @visible='True']
+				</item>
+				<item
+				capname="imgtag"
+				id="cc99b3b1-293d-42b1-b1e9-e7ef6d2646c1"
+				name="img_logo"
+				robustPath="/dom[@domain='dole-d4h-simplemdg-web.cfapps.ap11.hana.ondemand.com']//body[#'simplemdg']//img[@alt='']"
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div[1]/header/div/div/div[1]/div[1]/img[@visible='True' and @tagname='img']
+				</item>
+				<item
+				capname="spantag"
+				id="c1101dd4-53c9-43e0-acb1-a89baf387fff"
+				name="mn_My_Inbox"
+				robustPath="/dom[@domain='dole-qas-simplemdg-web.cfapps.ap11.hana.ondemand.com']//div[#'sap-ui-static']//span[@innertext='My Inbox']"
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div[]/div/div/div/div/div/div[]//span[@innertext='My Inbox']
+				</item>
+			</folder>
+			<folder
+			capname="unknown"
+			id="26407e3e-e6f5-4cf2-b88d-7fc03b2fab96"
+			isrooted="False"
+			name="Choose_OT"
+			searchtimeout="0ms">
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="button"
+				id="331dbc09-a585-49c7-b790-50d137876fae"
+				name="btn_New_Request"
+				refimgid="b9635b73-c8e0-4d5c-8323-64426193701d"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div[2]/div/div/div/div/div/?/?/section/div/div[]/div/div[1]/div[]/button[@title='Submit a new request']
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="da4804c4-2103-4bc7-a6ea-1b300197574f"
+				name="txt_Input_OT"
+				refimgid="2140ccef-02c3-4ce8-8f5f-fd9c64f7c268"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div/div/div/div/div[1]//input[@type='text']
+				</item>
+				<item
+				addcaps="unknown,webelement"
+				capname="webelement"
+				id="466c4fb5-fa54-42de-a1b2-b602eee2e5e0"
+				name="btn_Next"
+				refimgid="22056670-be4d-4ee9-9cf7-9bc95a797439"
+				robustPath="/dom[@domain='manual-test-ecc-simplemdg-web.cfapps.eu10.hana.ondemand.com']//div[#'sap-ui-static']//tag[@innertext='Next']"
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div/div/div/div/div[2]/button//tag[@innertext='Next']
+				</item>
+			</folder>
+			<folder
+			capname="unknown"
+			id="f9de4df9-f59a-4ddc-9d1c-ce5ea0ffbf2b"
+			isrooted="False"
+			name="Select_Template"
+			searchtimeout="0ms">
+				<item
+				addcaps="unknown,webelement"
+				capname="webelement"
+				id="0fd52cc1-08d0-4f5f-a7b2-939adb5f601c"
+				name="btn_SwitchTemplates"
+				refimgid="2738ec9d-0224-4660-a356-178abb13609b"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div[2]/div/div/div/div/div/div/header/div[1]/div/div/div[3]/?/?/div/button[@title='Switch templates']/span[1]/span[2]/tag[@innertext='Switch templates']
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="e030afed-62a3-4244-826b-5589ac7d9c01"
+				name="txt_Search_Template"
+				refimgid="0dbdfffd-98bc-48e5-81bb-cb0d6506d81b"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div/header/div[2]/div/div[2]//form[]/input[@type='search']
+				</item>
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="divtag"
+				id="372c9287-abf0-41fd-a56b-fffb4f71458a"
+				name="btn_Search_Action"
+				refimgid="b8debb2e-7280-4d99-805d-734e9842597b"
+				robustPath="/dom[@domain='dole-d4h-simplemdg-web.cfapps.ap11.hana.ondemand.com']//div[#'sap-ui-static']//form/div[2]"
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div/header/div[2]/div/div[2]//form[]/div[2]
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="a0aac6d4-ab71-47a2-9a5b-7d1898bd47c0"
+				name="lb_Select_Template"
+				refimgid="c0e669e2-c2c2-40f3-9c80-735f6773cc76"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div/section//table/tbody/tr/td[2]//span[@innertext=$varTemplate]
+				</item>
+				<item
+				capname="button"
+				id="b073f336-87a7-4a01-a998-01cf0d903f0e"
+				name="btn_Save_as_Draft"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div[2]/div/div/div/div/div[]/div/header/div[1]/div/div/div[]/?/?/div/button[@title='Save as draft' and @visible='True']
+				</item>
+				<item
+				capname="button"
+				id="dc201846-8320-440a-ae59-5abef00cacd8"
+				name="btn_NOT_save_image"
+				robustPath="/dom[@domain='dole-qas-simplemdg-web.cfapps.ap11.hana.ondemand.com']//div[#'sap-ui-static']//tag[@innertext='Ok']"
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div[]/footer/div/button[@visible='True']
+				</item>
+				<item
+				capname="webelement"
+				id="3c794d35-cae1-402f-a5df-2f962d5a0e44"
+				name="btn_See_Draft"
+				robustPath="/dom[@domain='dole-qas-simplemdg-web.cfapps.ap11.hana.ondemand.com']//body[#'simplemdg']//button[@title='See drafts']/span[1]/span[2]/tag"
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div[2]/div/div/div/div/div[2]/div/header/div[1]/div/div/div[]/?/?/div/button[@title='See drafts']/span[]/span[]/tag[@innertext='See drafts']
+				</item>
+				<item
+				capname="spantag"
+				id="97ebe3a9-da22-40e4-bf28-134cb2a53187"
+				name="lb_Select_Draft_CR"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[]/?/?/table/tbody/tr/td[]/span[@innertext&gt;$varRequestDes]
+				</item>
+			</folder>
+			<folder
+			capname="unknown"
+			id="c0d42013-83fd-4227-ba3f-039150a68020"
+			isrooted="False"
+			name="Header"
+			searchtimeout="0ms">
+				<item
+				addcaps="unknown,webelement,textareatag"
+				capname="textareatag"
+				id="9b820966-0b44-4a73-a477-d3193c752208"
+				name="txt_Description"
+				refimgid="8c41dd9a-2111-4187-87d0-aae17ae8ac55"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div[2]/div/div/div/div/div/div/header/header/section/div/div/div[1]/div/div[2]/?/?/div/textarea[@required='False']
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="402ffb99-f082-4187-bc8d-5f99a5c5378e"
+				name="ckl_Priority"
+				refimgid="4d4723ba-a2b1-4bcd-b1c0-6381f0e412e3"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div[2]/div/div/div/div/div/div/header/header/section/div/div/div[2]/div/div[2]/div/span[2]
+				</item>
+				<item
+				addcaps="unknown,webelement,litag"
+				capname="litag"
+				id="10369103-9cd6-4191-9300-82ebadd3e560"
+				name="list_Priority"
+				refimgid="0777b7db-715b-41e4-bf55-adaa514efd95"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div/div//ul/li[@innertext=$varPriority]
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="6b65e8c6-b959-4b9a-8237-fe6b915fabe8"
+				name="txt_Reason"
+				refimgid="4186fe9a-d7a8-41dc-a1ae-8118a2f7e7f5"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div[2]/div/div/div/div/div/div/header/header/section/div/div/div[3]/div/div[2]//input[@type='text']
+				</item>
+				<item
+				addcaps="unknown,webelement,textareatag"
+				capname="textareatag"
+				id="18a7d30a-8297-4492-9abe-ce96b61fd765"
+				name="txt_OtherReason"
+				refimgid="0c9bf11c-0946-498a-b52d-0db2a1c1e1ba"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div[2]/div/div/div/div/div/div/header/header/section/div/div/div[4]/div/div[2]/?/?/div/textarea[@required='False']
+				</item>
+			</folder>
+			<folder
+			capname="unknown"
+			id="52cb0e93-c229-4115-ac26-eb28cede038b"
+			isrooted="False"
+			name="Input_Data"
+			searchtimeout="0ms">
+				<folder
+				capname="unknown"
+				id="42c5040c-e393-487d-8ac0-11977c7b86af"
+				isrooted="False"
+				name="Product_Info"
+				searchtimeout="0ms">
+					<item
+					addcaps="unknown,webelement,inputtag"
+					capname="inputtag"
+					id="22ae45c1-5b3d-405a-a667-2941d2d588b4"
+					name="txt_Material_Number"
+					refimgid="c94fa8be-e125-447d-b41f-97ecb0e3bf5d"
+					robustPath=""
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//body[#'simplemdg']/div[]/div/div/div/div/div/div[2]/section/div/div[2]/div/div/div/div/div[]/div/div/div/section[2]/section[1]/div[2]/div/div/div/div[1]/div/div[1]/div/div/?/?/section/div/div[1]/div[2]/div/?/?/input[@type='text' and @visible='True']
+					</item>
+					<item
+					addcaps="unknown,webelement,spantag"
+					capname="spantag"
+					id="b5b75a7d-d25f-4489-9e0e-1b5591c0cf4a"
+					name="btn_Add_Lang"
+					refimgid="fa46c6c6-0b40-4c2c-bd7d-ab6773bf4076"
+					robustPath="/dom[@domain='dole-d4h-simplemdg-web.cfapps.ap11.hana.ondemand.com']//body[#'simplemdg']//section/div/div[2]/div/div/div/div/div[4]/div/div/div/section[2]/section[1]/div[2]/div/div/div/div[1]/div/div[2]/div/div/div[1]/button[@title='Add']/span[1]/span"
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div[2]/div/div/div/div/div/div/div/div/section[2]/section[1]/div[2]/div/div/div/div[1]/div/div[2]/div/div/div[1]/button[@title='Add']/span[1]/span
+					</item>
+					<item
+					addcaps="unknown,webelement,inputtag"
+					capname="inputtag"
+					id="46e9fdcf-359e-4f62-a5c7-545a2cabad4a"
+					name="txt_Material_description"
+					refimgid="a6e93729-b48b-4579-9bec-d5421cea15c3"
+					robustPath="/dom[@domain='dole-d4h-simplemdg-web.cfapps.ap11.hana.ondemand.com']//div[#'__dialog5-scrollCont']//section/div/div[3]/div[2]/div/div/input[@type='text']"
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[@class='sapMDialogScrollCont']/div/?/?/section/div/div[3]/div[2]//input[@type='text']
+					</item>
+					<item
+					addcaps="unknown,webelement"
+					capname="webelement"
+					id="ec4d84ab-8d8a-4c85-a949-7c4f7c61aead"
+					name="btn_Add_New_description"
+					refimgid="659dfaae-bb67-43e8-9ef5-0ea9e9efcd52"
+					robustPath="/dom[@domain='dole-d4h-simplemdg-web.cfapps.ap11.hana.ondemand.com']//div[#'sap-ui-static']//tag[@innertext='Add']"
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div[8]/footer/div/button[1]//tag[@innertext='Add']
+					</item>
+					<item
+					capname="button"
+					id="c10719cd-35a1-41e1-9feb-f1b56b6e5617"
+					name="btn_Edit_Product_Description"
+					robustPath="/dom[@domain='dole-qas-simplemdg-web.cfapps.ap11.hana.ondemand.com']//body[#'simplemdg']//section/div/div[2]/div/div/div/div/div[4]/div/div/div/section[2]/section[1]/div[2]/div/div/div/div[1]/div/div[2]/div/div/table/tbody/tr/td[5]/div/div[1]/button[@title='Drill down']/span[1]/span"
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div[2]/div/div/div/div/div[]/div/div/div/section[2]/section[1]/div[2]/div/div/div/div[1]/div/div[2]//table/tbody/tr/td[5]/div/div[1]/button[@title='Drill down']
+					</item>
+					<item
+					capname="webelement"
+					id="d5a11045-923b-4401-9b29-18acfcce90d3"
+					name="btn_Update_Product_Description"
+					robustPath="/dom[@domain='dole-qas-simplemdg-web.cfapps.ap11.hana.ondemand.com']//div[#'sap-ui-static']//tag[@innertext='Update']"
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div[]/footer/div/button[]//tag[@innertext='Update']
+					</item>
+					<item
+					capname="inputtag"
+					id="726cf12e-c423-4f96-9e07-14eb942e2c79"
+					name="txt_Language"
+					robustPath="/dom[@domain='dole-qas-simplemdg-web.cfapps.ap11.hana.ondemand.com']//div[#'__dialog1-scrollCont']//input[@type='text']"
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[@class='sapMDialogScrollCont']//section/div/div[1]/div[2]/div/div/input[@type='text']
+					</item>
+					<item
+					capname="inputtag"
+					id="fa3dc5c6-9df2-4cc0-a25d-9ec45f158b1b"
+					name="txt_Search_Language"
+					robustPath="/dom[@domain='dole-qas-simplemdg-web.cfapps.ap11.hana.ondemand.com' and @browsername='Chrome']/element"
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div/header/div[2]/div/div[2]//form/input[@type='search']
+					</item>
+					<item
+					capname="divtag"
+					id="fc237fd7-fdf6-4a71-9a68-0027e1609792"
+					name="btn_Search_Language_Action"
+					robustPath="/dom[@domain='dole-qas-simplemdg-web.cfapps.ap11.hana.ondemand.com' and @browsername='Chrome']/element"
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div/header/div[2]/div/div[2]//form/div[2]
+					</item>
+					<item
+					capname="spantag"
+					id="5a8ed87a-376a-45b3-8c8f-4818f422249e"
+					name="lb_Select_Language"
+					robustPath="/dom[@domain='dole-qas-simplemdg-web.cfapps.ap11.hana.ondemand.com' and @browsername='Chrome']/element"
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div/section//table/tbody/tr/td[2]/span[@innertext='DE']
+					</item>
+				</folder>
+				<folder
+				capname="unknown"
+				id="980faba0-3803-468b-92c5-7ac21daa3147"
+				isrooted="False"
+				name="Classification"
+				searchtimeout="0ms">
+					<item
+					addcaps="unknown,webelement,spantag"
+					capname="spantag"
+					id="012d2ea8-389a-4e00-9f02-7e38a7cb4292"
+					name="btn_Add_Classification"
+					refimgid="58e1b2f0-6b43-4c27-b808-54028f293fd9"
+					robustPath=""
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div[2]/div/div/div/div/div/div/div/div/section[2]/section[2]/div[2]/div/div/div/div[1]/div/div/div/div[1]/button[@title='Add']/span[1]/span
+					</item>
+					<item
+					addcaps="unknown,webelement,inputtag"
+					capname="inputtag"
+					id="b9615991-f376-4c9b-ad39-38b1e07357f9"
+					name="txt_Class_Type"
+					refimgid="73ec72c1-2a57-4fa6-92a7-002031759898"
+					robustPath="/dom[@domain='dole-d4h-simplemdg-web.cfapps.ap11.hana.ondemand.com']//div[#'sap-ui-static']//input[@value='']"
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div[8]/section/div/div/div[1]//section/div/div[1]/div[2]//input[@type='text']
+					</item>
+					<item
+					capname="inputtag"
+					id="285cead1-fc13-4ef3-9c47-d66a25c56f01"
+					name="txt_Search_Class_Type"
+					robustPath="/dom[@domain='dole-d4h-simplemdg-web.cfapps.ap11.hana.ondemand.com']//div[#'sap-ui-static']//input[@type='search']"
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div[9]/header/div[2]/div/div[2]//form/input[@type='search']
+					</item>
+					<item
+					capname="divtag"
+					id="cb3d1961-80d8-473d-9344-a954bd225bdd"
+					name="btn_Search_Action"
+					robustPath="/dom[@domain='dole-d4h-simplemdg-web.cfapps.ap11.hana.ondemand.com']//div[#'sap-ui-static']//form/div[2]"
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div[9]/header/div[2]/div/div[2]//form/div[2]
+					</item>
+					<item
+					capname="spantag"
+					id="1b082a8c-eb42-405a-b4b6-e62524ad34cf"
+					name="lb_Select_Class"
+					robustPath=""
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div[9]/section//table/tbody/tr/td[2]/span[@innertext=$varClass_Type]
+					</item>
+					<item
+					capname="webelement"
+					id="387a89be-0132-4682-967d-ead8a959ae4d"
+					name="btn_Add_Submit"
+					robustPath="/dom[@domain='dole-d4h-simplemdg-web.cfapps.ap11.hana.ondemand.com']//div[#'sap-ui-static']//tag[@innertext='Add']"
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div/footer/div/button[1]//tag[@innertext='Add']
+					</item>
+				</folder>
+				<folder
+				capname="unknown"
+				id="c16a46ca-be33-4fa5-a11c-cb6658d80b86"
+				isrooted="False"
+				name="General_Data"
+				searchtimeout="0ms">
+					<item
+					capname="webelement"
+					id="cd87935f-af13-45e2-bc9e-f30f50d8a290"
+					name="menu_Basic_Data"
+					robustPath=""
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div[2]/div/div/div/div/div/div/header/div[2]/div/div[2]/div/button[3]//tag[@innertext='Basic Data ']
+					</item>
+					<item
+					capname="inputtag"
+					id="c28a6ef5-10c5-49f6-a257-4aa194998256"
+					name="txt_Unit_of_Measure"
+					robustPath=""
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div[2]/div/div/div/div/div/div/div/div/section[2]/section[3]/div[2]/div/div/div/div[1]/div/div[1]//section/div/div[1]/div[2]/div/div/input[@class='sapMInputBaseInner']
+					</item>
+					<item
+					capname="inputtag"
+					id="9d3c22fc-26c3-4f81-a929-9afecb645ca8"
+					name="txt_SearchUnit_Of_Measure"
+					robustPath=""
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div/header/div[2]/div/div[2]//form/input[@type='search']
+					</item>
+					<item
+					capname="inputtag"
+					id="7a573aa0-1a79-4949-ab7d-808dfe098cbb"
+					name="btn_Search_Action"
+					robustPath=""
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div/header/div[2]/div/div[2]//form/input[@type='search']
+					</item>
+					<item
+					capname="inputtag"
+					id="fd307cd8-8271-4015-a79b-62d9b51f1d51"
+					name="lb_Select_Unit"
+					robustPath=""
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div/header/div[2]/div/div[2]//form/input[@type='search']
+					</item>
+					<item
+					capname="inputtag"
+					id="daff4b6b-01df-454d-b493-d457fef31824"
+					name="txt_Add_Laboratory"
+					robustPath="/dom[@domain='dole-d4h-simplemdg-web.cfapps.ap11.hana.ondemand.com']//div[#'__section5-innerGrid']//section/div/div[2]/div[2]/div/div/input[@type='text']"
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div/div[1]//section/div/div[2]/div[2]/div/div/input[@type='text' and @visible='True']
+					</item>
+					<item
+					capname="inputtag"
+					id="0869256d-2253-44d3-8e24-d39799126e2f"
+					name="txt_Search_Laboratory"
+					robustPath="/dom[@domain='dole-d4h-simplemdg-web.cfapps.ap11.hana.ondemand.com']/element"
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div/header/div[2]/div/div[2]//form/input[@type='search']
+					</item>
+					<item
+					capname="divtag"
+					id="ba7d8f55-553c-416e-89b5-f85483b2ec38"
+					name="btn_Search_Laboratory_Action"
+					robustPath="/dom[@domain='dole-d4h-simplemdg-web.cfapps.ap11.hana.ondemand.com']/element"
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div/header/div[2]/div/div[2]//form/div[2]
+					</item>
+					<item
+					capname="spantag"
+					id="46ff539b-b99f-41d4-ab9b-7485ee6b3f29"
+					name="lb_Select_Laboratory"
+					robustPath=""
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div/section//table/tbody/tr/td[2]/span[@innertext=$varLaboratory]
+					</item>
+					<item
+					capname="inputtag"
+					id="6d69e8e3-5a5d-40dd-9f6e-22f31515ce59"
+					name="txt_Old_material_number"
+					robustPath=""
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div[2]/div/div/div/div/div/div/div/div/section[2]/section[3]/div[2]/div/div/div/div[1]/div/div[1]/div/div/?/?/section/div/div[3]/div[2]//input[@type='text' and @class='sapMInputBaseInner']
+					</item>
+					<item
+					capname="inputtag"
+					id="aecc7535-c074-45a3-9efe-eb8faca7c001"
+					name="txt_Page_Format"
+					robustPath="/dom[@domain='dole-d4h-simplemdg-web.cfapps.ap11.hana.ondemand.com']//body[#'simplemdg']//section/div/div[2]/div/div/div/div/div[4]/div/div/div/section[2]/section[3]/div[2]/div/div/div/div[1]/div/div[1]/div/div/div/section/div/div[4]/div[2]/div/div/input[@type='text']"
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div[2]/div/div/div/div/div/div/div/div/section[2]/section[3]/div[2]/div/div/div/div[1]/div/div[1]/div/div/?/?/section/div/div[4]/div[2]//input[@type='text']
+					</item>
+					<item
+					capname="inputtag"
+					id="840d3ac2-44fe-42d9-9844-9f123d788861"
+					name="txt_Product_Hierarchy"
+					robustPath="/dom[@domain='dole-d4h-simplemdg-web.cfapps.ap11.hana.ondemand.com']//div[#'__section5-innerGrid']//section/div/div[5]/div[2]/div/div/input[@type='text']"
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[]/div[1]//section/div/div[5]/div[2]/div/div/input[@type='text' and @visible='True']
+					</item>
+					<item
+					capname="inputtag"
+					id="dd961b3d-5027-4501-941e-d65fda29d7c0"
+					name="txt_Search_Product_Hierarchy"
+					robustPath="/dom[@domain='dole-d4h-simplemdg-web.cfapps.ap11.hana.ondemand.com']/element"
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div/header/div[2]/div/div[2]//form/input[@type='search']
+					</item>
+					<item
+					capname="divtag"
+					id="009279a0-cdf1-4a1d-a95e-875e00725cfb"
+					name="btn_Product_Hierarchy_Action"
+					robustPath="/dom[@domain='dole-d4h-simplemdg-web.cfapps.ap11.hana.ondemand.com']/element"
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div/header/div[2]/div/div[2]//form/div[2]
+					</item>
+					<item
+					capname="spantag"
+					id="4d1ee257-f382-49a3-95e1-917e4036b0db"
+					name="lb_Select_Product_Hierarchy"
+					robustPath=""
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div/section//table/tbody/tr/td[2]/span[@innertext=$varProduct_Hierarchy]
+					</item>
+					<item
+					capname="inputtag"
+					id="961633a3-e828-460a-9267-cfcd61a7fab2"
+					name="txt_Length"
+					robustPath="/dom[@domain='dole-d4h-simplemdg-web.cfapps.ap11.hana.ondemand.com']//div[#'__section5-innerGrid']//section/div/div[7]/div[2]/div/div/input[@type='text']"
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[]/div[1]/div//section/div/div[7]/div[2]//input[@type='text' and @visible='True']
+					</item>
+					<item
+					capname="inputtag"
+					id="d530c67e-0d7a-43b0-9935-882e6d23bb73"
+					name="txt_Width"
+					robustPath="/dom[@domain='dole-d4h-simplemdg-web.cfapps.ap11.hana.ondemand.com']//div[#'__section5-innerGrid']//section/div/div[7]/div[3]/div/div/input[@type='text']"
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[]/div[1]/div//section/div/div[7]/div[3]//input[@type='text' and @visible='True']
+					</item>
+					<item
+					capname="inputtag"
+					id="df1e5151-5a33-41dd-9cbe-355d93f181f7"
+					name="txt_Height"
+					robustPath="/dom[@domain='dole-d4h-simplemdg-web.cfapps.ap11.hana.ondemand.com']//div[#'__section5-innerGrid']//section/div/div[7]/div[4]/div/div/input[@type='text']"
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[]/div[1]/div//section/div/div[7]/div[4]//input[@type='text' and @visible='True']
+					</item>
+					<item
+					capname="inputtag"
+					id="0732571a-b8f3-4f9d-9cc3-438e5e867c48"
+					name="txt_Unit"
+					robustPath="/dom[@domain='dole-d4h-simplemdg-web.cfapps.ap11.hana.ondemand.com']//div[#'__section5-innerGrid']//section/div/div[7]/div[5]/div/div/input[@type='text']"
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[]/div[1]//section/div/div[7]/div[5]/div/div/input[@type='text' and @visible='True']
+					</item>
+					<item
+					capname="inputtag"
+					id="a46122d3-e0f2-4f12-bde3-051e08400e2d"
+					name="txt_Search_Unit"
+					robustPath="/dom[@domain='dole-d4h-simplemdg-web.cfapps.ap11.hana.ondemand.com']/element"
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div/header/div[2]/div/div[2]//form/input[@type='search']
+					</item>
+					<item
+					capname="divtag"
+					id="e62639bf-2241-4b3f-ab75-7640737305d4"
+					name="btn_Search_Unit_Action"
+					robustPath="/dom[@domain='dole-d4h-simplemdg-web.cfapps.ap11.hana.ondemand.com']/element"
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div/header/div[2]/div/div[2]//form/div[2]
+					</item>
+					<item
+					capname="spantag"
+					id="5b723745-2e79-45a5-8d89-b32c7262a7cd"
+					name="lb_Select_Unit_New"
+					robustPath=""
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div/section//table/tbody/tr/td[2]/span[@innertext=$varUnit]
+					</item>
+					<item
+					capname="inputtag"
+					id="a5e4f77b-3261-4594-ae1c-89e5b56d0eef"
+					name="txt_Page_Number"
+					robustPath=""
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div[2]/div/div/div/div/div/div/div/div/section[2]/section[3]/div[2]/div/div/div/div[1]/div/div[1]/div/div/?/?/section/div/div[8]/div[2]//input[@type='text']
+					</item>
+					<item
+					capname="inputtag"
+					id="f0adb0ef-db36-4ebf-b377-0f4523dcd047"
+					name="txt_X_Plant"
+					robustPath=""
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div[2]/div/div/div/div/div/div/div/div/section[2]/section[3]/div[2]/div/div/div/div[1]/div/div[1]//section/div/div[9]/div[2]/div/div/input[@type='text']
+					</item>
+					<item
+					capname="inputtag"
+					id="23017558-a922-4439-a43f-59148a7bf66f"
+					name="txt_Search_X_Plant"
+					robustPath="/dom[@domain='dole-d4h-simplemdg-web.cfapps.ap11.hana.ondemand.com']/element"
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div/header/div[2]/div/div[2]//form/input[@type='search']
+					</item>
+					<item
+					capname="divtag"
+					id="05f29346-06dc-40cb-befe-7273a64ee22f"
+					name="btn_Search_X_Plant_Action"
+					robustPath="/dom[@domain='dole-d4h-simplemdg-web.cfapps.ap11.hana.ondemand.com']/element"
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div/header/div[2]/div/div[2]//form/div[2]
+					</item>
+					<item
+					capname="spantag"
+					id="9335d3a9-0bf0-46f1-87c1-af508de9f50a"
+					name="lb_Select_X_Plant"
+					robustPath=""
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div/section//table/tbody/tr/td[2]/span[@innertext=$varX_Plant]
+					</item>
+					<item
+					capname="inputtag"
+					id="ecae3c15-1b84-4cc5-a01a-a8530c88c66d"
+					name="txt_Valid_from"
+					refimgid="4c8b31cf-8288-4de6-9078-1a38c512321c"
+					robustPath=""
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div[2]/div/div/div/div/div/div/div/div/section[2]/section[3]/div[2]/div/div/div/div[1]/div/div[1]/div/div/?/?/section/div/div[10]/div[2]//input[@type='text']
+					</item>
+					<item
+					capname="inputtag"
+					id="ad0eef79-d01e-427d-ae88-1a29417062b5"
+					name="txt_Packaging_Materials"
+					robustPath="/dom[@domain='dole-d4h-simplemdg-web.cfapps.ap11.hana.ondemand.com']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div[2]/div/div/div/div/div[2]/div/div/div/section[2]/section[3]/div[2]/div/div/div/div[1]/div/div[2]/div/div/div/section/div/div/div[2]/div/div/input[@type='text']"
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div[2]/div/div/div/div/div/div/div/div/section[2]/section[3]/div[2]/div/div/div/div[1]/div/div[2]//section/div/div/div[2]/div/div/input[@type='text']
+					</item>
+					<item
+					capname="inputtag"
+					id="21f9e241-0fc5-484b-a5a1-4d5df964571d"
+					name="txt_Search_Packaging_Materials"
+					robustPath="/dom[@domain='dole-d4h-simplemdg-web.cfapps.ap11.hana.ondemand.com']/element"
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div/header/div[2]/div/div[2]//form/input[@type='search']
+					</item>
+					<item
+					capname="divtag"
+					id="228fdd9e-f1b9-4933-9467-252add489927"
+					name="btn_Search_Packaging_Materials_Action"
+					robustPath="/dom[@domain='dole-d4h-simplemdg-web.cfapps.ap11.hana.ondemand.com']/element"
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div/header/div[2]/div/div[2]//form/div[2]
+					</item>
+					<item
+					capname="spantag"
+					id="681dcc72-d8fa-457c-9e6b-78b4b17b1526"
+					name="lb_Select_Packaging_Materials"
+					robustPath=""
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div/section//table/tbody/tr/td[2]/span[@innertext=$varPackaging_Materials]
+					</item>
+				</folder>
+				<folder
+				capname="unknown"
+				id="2868a663-630c-4ea5-8f09-3a97065f5b5b"
+				isrooted="False"
+				name="Dimensions"
+				searchtimeout="0ms">
+					<item
+					capname="inputtag"
+					id="84097106-7732-4f0c-b945-38fa63f77e13"
+					name="txt_Material_Group"
+					robustPath=""
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div[2]/div/div/div/div/div/div/div/div/section[2]/section[3]/div[2]/div/div/div/div[1]/div/div[3]//section/div/div[1]/div[2]/div/div/input[@type='text' and @visible='True']
+					</item>
+					<item
+					capname="inputtag"
+					id="edbe2152-23f0-40ad-827d-d5843f54fcb5"
+					name="txt_Search_Material_Group"
+					robustPath="/dom[@domain='dole-d4h-simplemdg-web.cfapps.ap11.hana.ondemand.com']/element"
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div/header/div[2]/div/div[2]//form/input[@type='search']
+					</item>
+					<item
+					capname="divtag"
+					id="baca14b8-2f48-4cf8-8bff-d729bcc15571"
+					name="btn_Search_Material_Group_Action"
+					robustPath="/dom[@domain='dole-d4h-simplemdg-web.cfapps.ap11.hana.ondemand.com']/element"
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div/header/div[2]/div/div[2]//form/div[2]
+					</item>
+					<item
+					capname="spantag"
+					id="bad7fab0-7aa7-4636-b9fb-b28f767ca773"
+					name="lb_Select_Material_Group"
+					robustPath=""
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div/section//table/tbody/tr/td[2]/span[@innertext=$varMaterial_Group]
+					</item>
+					<item
+					capname="inputtag"
+					id="1e547e9c-4f68-4d04-820f-75a3b9f49d18"
+					name="txt_Volume"
+					robustPath=""
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div[2]/div/div/div/div/div/div/div/div/section[2]/section[3]/div[2]/div/div/div/div[1]/div/div[3]/div/div/?/?/section/div/div[3]/div[2]//input[@type='text' and @visible='True' and @class='sapMInputBaseInner']
+					</item>
+					<item
+					capname="inputtag"
+					id="cbbff5b7-4092-4075-96ad-3b98516ee61a"
+					name="txt_Volume_Unit"
+					robustPath=""
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div[2]/div/div/div/div/div/div/div/div/section[2]/section[3]/div[2]/div/div/div/div[1]/div/div[3]//section/div/div[3]/div[3]/div/div/input[@type='text' and @visible='True']
+					</item>
+					<item
+					capname="inputtag"
+					id="90a50699-6b0e-4b98-b89a-efc05bef1d42"
+					name="txt_Search_Volume_Unit"
+					robustPath="/dom[@domain='dole-d4h-simplemdg-web.cfapps.ap11.hana.ondemand.com']/element"
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div/header/div[2]/div/div[2]//form/input[@type='search']
+					</item>
+					<item
+					capname="divtag"
+					id="f47c74f0-c480-4a1a-a3ac-f524efa46a9c"
+					name="btn_Search_Volume_Unit_Action"
+					robustPath="/dom[@domain='dole-d4h-simplemdg-web.cfapps.ap11.hana.ondemand.com']/element"
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div/header/div[2]/div/div[2]//form/div[2]
+					</item>
+					<item
+					capname="spantag"
+					id="e75866b9-6d69-48ac-9038-141477b709d1"
+					name="lb_Select_Volume_Unit"
+					robustPath=""
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div/section//table/tbody/tr/td[2]/span[@innertext=$varVolume_Unit]
+					</item>
+					<item
+					capname="inputtag"
+					id="7d917e89-1015-4a26-81cb-8f51a35aca1b"
+					name="txt_Size"
+					robustPath=""
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div[2]/div/div/div/div/div/div/div/div/section[2]/section[3]/div[2]/div/div/div/div[1]/div/div[3]/div/div/?/?/section/div/div[4]/div[2]//input[@type='text']
+					</item>
+					<item
+					capname="inputtag"
+					id="1962bcb9-7b33-46c1-b635-514f8243c92a"
+					name="txt_EAN_category"
+					robustPath=""
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div[2]/div/div/div/div/div/div/div/div/section[2]/section[3]/div[2]/div/div/div/div[1]/div/div[3]//section/div/div[5]/div[2]/div/div/input[@type='text']
+					</item>
+					<item
+					capname="inputtag"
+					id="0ac6c088-dcae-4164-998c-c0477c2285ff"
+					name="txt_Search_EAN_category"
+					robustPath="/dom[@domain='dole-d4h-simplemdg-web.cfapps.ap11.hana.ondemand.com']/element"
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div/header/div[2]/div/div[2]//form/input[@type='search']
+					</item>
+					<item
+					capname="divtag"
+					id="42cd691d-88b3-42cf-9689-955985b18f31"
+					name="btn_Search_EAN_category_Action"
+					robustPath="/dom[@domain='dole-d4h-simplemdg-web.cfapps.ap11.hana.ondemand.com']/element"
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div/header/div[2]/div/div[2]//form/div[2]
+					</item>
+					<item
+					capname="spantag"
+					id="0e1cfaa7-d42c-4c77-b49d-57dc663fb780"
+					name="lb_Select_EAN_category"
+					robustPath=""
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div/section//table/tbody/tr/td[2]/span[@innertext=$varEAN_category]
+					</item>
+					<item
+					capname="inputtag"
+					id="38b66ed9-ab85-4fdc-9c4d-c567520b0fb5"
+					name="txt_EAN_UPC"
+					robustPath=""
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div[2]/div/div/div/div/div/div/div/div/section[2]/section[3]/div[2]/div/div/div/div[1]/div/div[3]/div/div/?/?/section/div/div[6]/div[2]//input[@type='text']
+					</item>
+				</folder>
+				<folder
+				capname="unknown"
+				id="168a5984-8b4f-40b8-ad22-5ea11b283e25"
+				isrooted="False"
+				name="General_Plant"
+				searchtimeout="0ms">
+					<item
+					capname="inputtag"
+					id="14711007-27e1-4efa-a61a-3921bd383a7a"
+					name="txt_PO_Unit_Active"
+					robustPath=""
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div[2]/div/div/div/div/div/div/div/div/section[2]/section[3]/div[2]/div/div/div/div[1]/div/div[4]//section/div/div[2]/div[4]/div/div/input[@type='text']
+					</item>
+					<item
+					capname="inputtag"
+					id="a44fd3e1-0e22-4686-990f-2a0b8bf48dff"
+					name="txt_Search_PO_Unit_Active"
+					robustPath="/dom[@domain='dole-d4h-simplemdg-web.cfapps.ap11.hana.ondemand.com']/element"
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div/header/div[2]/div/div[2]//form/input[@type='search']
+					</item>
+					<item
+					capname="divtag"
+					id="cff324eb-4d25-4f1b-b498-4e846297e0c4"
+					name="bnt_Search_PO_Unit_Active_Action"
+					robustPath="/dom[@domain='dole-d4h-simplemdg-web.cfapps.ap11.hana.ondemand.com']/element"
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div/header/div[2]/div/div[2]//form/div[2]
+					</item>
+					<item
+					capname="spantag"
+					id="43142746-ba75-43aa-b443-ea8ed940704c"
+					name="lb_Select_PO_Unit_Active"
+					robustPath=""
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div/section//table/tbody/tr/td[2]/span[@innertext=$varPO_Unit]
+					</item>
+					<item
+					capname="inputtag"
+					id="dc117afb-f2f1-408e-aa62-441776c9c30e"
+					name="txt_Min_Shelf"
+					robustPath=""
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div[2]/div/div/div/div/div/div/div/div/section[2]/section[3]/div[2]/div/div/div/div[1]/div/div[4]/div/div/?/?/section/div/div[3]/div[2]//input[@type='text']
+					</item>
+					<item
+					capname="inputtag"
+					id="2f33a543-b3fe-4b66-bb37-c74a15440f1f"
+					name="txt_Total_Shelf"
+					robustPath=""
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div[2]/div/div/div/div/div/div/div/div/section[2]/section[3]/div[2]/div/div/div/div[1]/div/div[4]/div/div/?/?/section/div/div[3]/div[3]//input[@type='text']
+					</item>
+					<item
+					capname="inputtag"
+					id="17004505-be4f-4c9f-ac91-f3751c1f1800"
+					name="txt_Storage_conditions"
+					robustPath=""
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div[2]/div/div/div/div/div/div/div/div/section[2]/section[3]/div[2]/div/div/div/div[1]/div/div[4]//section/div/div[4]/div[2]/div/div/input[@type='text']
+					</item>
+					<item
+					capname="inputtag"
+					id="18a0d735-0b93-4cd7-9fa4-83353c0b7e8d"
+					name="txt_Search_Storage_conditions"
+					robustPath="/dom[@domain='dole-d4h-simplemdg-web.cfapps.ap11.hana.ondemand.com']/element"
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div/header/div[2]/div/div[2]//form/input[@type='search']
+					</item>
+					<item
+					capname="divtag"
+					id="2e3a90e8-6a01-40e0-92c1-4d17b9f2a633"
+					name="btn_Search_Storage_conditions_Action"
+					robustPath="/dom[@domain='dole-d4h-simplemdg-web.cfapps.ap11.hana.ondemand.com']/element"
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div/header/div[2]/div/div[2]//form/div[2]
+					</item>
+					<item
+					capname="spantag"
+					id="f3d80a71-29d7-4118-8616-df94ebf7f3f7"
+					name="lb_Select_Storage_conditions"
+					robustPath=""
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div/section//table/tbody/tr/td[2]/span[@innertext=$varStorage_conditions]
+					</item>
+					<item
+					capname="inputtag"
+					id="eb9ef6ef-7209-4361-ba53-ff2d674dc0f2"
+					name="txt_Temperature_conditions"
+					robustPath="/dom[@domain='dole-d4h-simplemdg-web.cfapps.ap11.hana.ondemand.com']//div[#'__section5-innerGrid']/div[4]/div/div/div/section/div/div[4]/div[4]/div/div/input[@type='text']"
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[]/div[4]//section/div/div[4]/div[4]/div/div/input[@type='text' and @visible='True']
+					</item>
+					<item
+					capname="inputtag"
+					id="501168ae-5e69-4b48-8744-83cb79f574e2"
+					name="txt_Search_Temperature"
+					robustPath="/dom[@domain='dole-d4h-simplemdg-web.cfapps.ap11.hana.ondemand.com']/element"
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div/header/div[2]/div/div[2]//form/input[@type='search']
+					</item>
+					<item
+					capname="divtag"
+					id="11f8d107-2146-4ad3-ad4c-718fcf490774"
+					name="btn_Search_Temperature_Action"
+					robustPath="/dom[@domain='dole-d4h-simplemdg-web.cfapps.ap11.hana.ondemand.com']/element"
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div/header/div[2]/div/div[2]//form/div[2]
+					</item>
+					<item
+					capname="spantag"
+					id="4995b03d-1157-4e80-9c59-656b673cb7ab"
+					name="lb_Select_Temperature"
+					robustPath=""
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div/section//table/tbody/tr/td[2]/span[@innertext=$varTemperature]
+					</item>
+					<item
+					capname="inputtag"
+					id="35c53da0-2e25-408a-8a94-85412cab5aaa"
+					name="txt_Label_type"
+					robustPath=""
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div[2]/div/div/div/div/div/div/div/div/section[2]/section[3]/div[2]/div/div/div/div[1]/div/div[4]//section/div/div[5]/div[2]/div/div/input[@type='text']
+					</item>
+					<item
+					capname="inputtag"
+					id="7351fd65-b11c-4c8d-8a33-4f571cc06217"
+					name="txt_Search_Label_type"
+					robustPath="/dom[@domain='dole-d4h-simplemdg-web.cfapps.ap11.hana.ondemand.com']/element"
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div/header/div[2]/div/div[2]//form/input[@type='search']
+					</item>
+					<item
+					capname="divtag"
+					id="93049921-82bf-40d9-8b40-5473bbf21f65"
+					name="btn_Search_Label_type_Action"
+					robustPath="/dom[@domain='dole-d4h-simplemdg-web.cfapps.ap11.hana.ondemand.com']/element"
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div/header/div[2]/div/div[2]//form/div[2]
+					</item>
+					<item
+					capname="spantag"
+					id="43252dc5-5db1-4e48-a4c4-5f4bb608b60b"
+					name="lb_Select_Label_type"
+					robustPath=""
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div/section//table/tbody/tr/td[2]/span[@innertext=$varLabel_type]
+					</item>
+					<item
+					capname="inputtag"
+					id="73014728-d0c2-4f99-b8f0-004a50ef281f"
+					name="txt_Label_form"
+					robustPath=""
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div[2]/div/div/div/div/div/div/div/div/section[2]/section[3]/div[2]/div/div/div/div[1]/div/div[4]//section/div/div[5]/div[4]/div/div/input[@type='text']
+					</item>
+					<item
+					capname="inputtag"
+					id="e38557db-6445-4c2e-86f6-67325331fb15"
+					name="txt_Search_Label_form"
+					robustPath="/dom[@domain='dole-d4h-simplemdg-web.cfapps.ap11.hana.ondemand.com']/element"
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div/header/div[2]/div/div[2]//form/input[@type='search']
+					</item>
+					<item
+					capname="divtag"
+					id="7305836d-8b40-4a20-8f8b-02e8925d93d0"
+					name="btn_Search_Label_form_Action"
+					robustPath="/dom[@domain='dole-d4h-simplemdg-web.cfapps.ap11.hana.ondemand.com']/element"
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div/header/div[2]/div/div[2]//form/div[2]
+					</item>
+					<item
+					capname="spantag"
+					id="a1670d56-d37c-4e6e-acd7-24141e08507c"
+					name="lb_Select_Label_form"
+					robustPath=""
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div/section//table/tbody/tr/td[2]/span[@innertext=$varLabel_form]
+					</item>
+					<item
+					capname="inputtag"
+					id="3d437365-63c8-4602-9c55-9910507a4c2e"
+					name="txt_Purchasing_Key"
+					robustPath=""
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div[2]/div/div/div/div/div/div/div/div/section[2]/section[3]/div[2]/div/div/div/div[1]/div/div[4]//section/div/div[7]/div[2]/div/div/input[@type='text']
+					</item>
+					<item
+					capname="inputtag"
+					id="ba0932e4-cadf-40f2-9ff3-c4460743f6e6"
+					name="txt_Search_Purchasing_Key"
+					robustPath="/dom[@domain='dole-d4h-simplemdg-web.cfapps.ap11.hana.ondemand.com']/element"
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div/header/div[2]/div/div[2]//form/input[@type='search']
+					</item>
+					<item
+					capname="divtag"
+					id="6e816fda-d317-4dd5-9b80-aa0f10131ecf"
+					name="btn_Search_Purchasing_Key_Action"
+					robustPath="/dom[@domain='dole-d4h-simplemdg-web.cfapps.ap11.hana.ondemand.com']/element"
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div/header/div[2]/div/div[2]//form/div[2]
+					</item>
+					<item
+					capname="spantag"
+					id="02bcf6fe-0835-47a4-952e-89b3ff9ffb10"
+					name="lb_Select_Purchasing_Key"
+					robustPath=""
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div/section//table/tbody/tr/td[2]/span[@innertext=$varPurchasing_Key]
+					</item>
+				</folder>
+				<folder
+				capname="unknown"
+				id="8f6f5cda-e7b5-43e5-ae7a-aba5eb49f8ad"
+				isrooted="False"
+				name="Plant_Data"
+				searchtimeout="0ms">
+					<item
+					capname="webelement"
+					id="b720bcaa-8684-4a8b-b49f-8a8f43f9af02"
+					name="menu_Plant_Data"
+					robustPath=""
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div[2]/div/div/div/div/div/div/header/div[2]/div/div[2]/div/button[4]//tag[@innertext='Plant Data']
+					</item>
+					<item
+					capname="spantag"
+					id="a3caf250-212e-4974-ad46-d01d0f81c7e9"
+					name="btn_Add_Plant_Data"
+					robustPath=""
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div[2]/div/div/div/div/div/div/div/div/section[2]/section[4]/div[2]/div/div/div/div[1]/div/div/div/div[1]/button[@title='Add']/span[1]/span
+					</item>
+					<item
+					capname="inputtag"
+					id="22b80ff0-6e81-4532-8735-a7835c63e76a"
+					name="txt_Plant_Data"
+					robustPath="/dom[@domain='dole-d4h-simplemdg-web.cfapps.ap11.hana.ondemand.com']//div[#'__dialog2-scrollCont']//input[@type='text']"
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[@class='sapMDialogScrollCont']/div[1]/div[2]//section/div/div[1]/div[2]//input[@type='text' and @visible='True']
+					</item>
+					<item
+					capname="inputtag"
+					id="1628c7fd-54a4-44e8-b271-2ed5bebfa422"
+					name="txt_Search_Plant_Data"
+					robustPath="/dom[@domain='dole-d4h-simplemdg-web.cfapps.ap11.hana.ondemand.com']/element"
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div/header/div[2]/div/div[2]//form/input[@type='search']
+					</item>
+					<item
+					capname="divtag"
+					id="f9652f1a-84d8-4c24-81a9-69c44e7a49a7"
+					name="btn_Search_Plant_Data_Action"
+					robustPath="/dom[@domain='dole-d4h-simplemdg-web.cfapps.ap11.hana.ondemand.com']/element"
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div/header/div[2]/div/div[2]//form/div[2]
+					</item>
+					<item
+					capname="spantag"
+					id="761f7d92-a2cf-458e-bc0a-6639cf596763"
+					name="lb_Select_Plant_Data"
+					robustPath=""
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div/section//table/tbody/tr/td[2]/span[@innertext=$varPlant]
+					</item>
+					<item
+					capname="inputtag"
+					id="fc21f398-7c8f-4073-99f5-d7d7aa06ef9d"
+					name="txt_Costing_Lot_Size"
+					robustPath="/dom[@domain='dole-d4h-simplemdg-web.cfapps.ap11.hana.ondemand.com']//div[#'__dialog6-scrollCont']//section/div/div[3]/div[2]/div/div/input[@type='text']"
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[@class='sapMDialogScrollCont']/div[1]/div[2]//section/div/div[3]/div[2]//input[@type='text']
+					</item>
+					<item
+					capname="divtag"
+					id="cb64def0-44c2-4093-aa39-e7f409510eeb"
+					name="chk_Kanban_Flag"
+					robustPath="/dom[@domain='dole-d4h-simplemdg-web.cfapps.ap11.hana.ondemand.com']//div[#'__dialog7-scrollCont']//div[@title='kanbanFlag']/div"
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[@class='sapMDialogScrollCont']/div[1]//section/div/div/?/?/div[@title='kanbanFlag']/div
+					</item>
+					<item
+					capname="spantag"
+					id="8d28fb7b-fbc0-422e-a172-874d48061c89"
+					name="txt_Packaging_Mode"
+					robustPath="/dom[@domain='dole-d4h-simplemdg-web.cfapps.ap11.hana.ondemand.com']//div[#'__dialog7-scrollCont']//section/div/div[11]/div[2]/div/div/div[2]/span[2]"
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[@class='sapMDialogScrollCont']/div[1]//section/div/div[11]/div[2]/div/div/div[2]/span[2]
+					</item>
+					<item
+					capname="inputtag"
+					id="c6f0d938-112b-4f00-a647-f252187ada18"
+					name="txt_Search_Packaging_Mode"
+					robustPath="/dom[@domain='dole-d4h-simplemdg-web.cfapps.ap11.hana.ondemand.com']/element"
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div/header/div[2]/div/div[2]//form/input[@type='search']
+					</item>
+					<item
+					capname="divtag"
+					id="ad1f4e57-c0d8-4610-a498-1b336c975be3"
+					name="btn_Search_Packaging_Mode_Action"
+					robustPath="/dom[@domain='dole-d4h-simplemdg-web.cfapps.ap11.hana.ondemand.com']/element"
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div/header/div[2]/div/div[2]//form/div[2]
+					</item>
+					<item
+					capname="spantag"
+					id="d2b25898-6ea9-44dd-90fc-d08d6dfd9204"
+					name="lb_Select_Packaging_Mode"
+					robustPath=""
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div/section//table/tbody/tr/td[2]/span[@innertext=$varPackaging_Mode]
+					</item>
+					<item
+					capname="inputtag"
+					id="db57b423-de11-4b81-bd58-a2b19ed03a2b"
+					name="txt_Profit_Center"
+					robustPath="/dom[@domain='dole-d4h-simplemdg-web.cfapps.ap11.hana.ondemand.com']//div[#'__bar4-containerContent']//section/div/div[7]/div[2]/div/div/input[@type='text']"
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[@class='sapMITBContainerContent']//section/div/div[7]/div[2]/div/div/input[@type='text']
+					</item>
+					<item
+					capname="inputtag"
+					id="b2a8a835-c4c9-4a82-bf5a-929d9a883658"
+					name="txt_Search_Profit_Center"
+					robustPath="/dom[@domain='dole-d4h-simplemdg-web.cfapps.ap11.hana.ondemand.com']/element"
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div/header/div[2]/div/div[2]//form/input[@type='search']
+					</item>
+					<item
+					capname="divtag"
+					id="13bd4c94-010f-42af-be0d-df8d74c98fcf"
+					name="btn_Search_Profit_Center_Action"
+					robustPath="/dom[@domain='dole-d4h-simplemdg-web.cfapps.ap11.hana.ondemand.com']/element"
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div/header/div[2]/div/div[2]//form/div[2]
+					</item>
+					<item
+					capname="spantag"
+					id="700c66cc-1f2e-4da3-83ef-194a8955bea8"
+					name="lb_Select_Profit_Center"
+					robustPath=""
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div/section//table/tbody/tr/td[2]/span[@innertext=$varProfit_Center]
+					</item>
+					<item
+					capname="spantag"
+					id="ad0cdca9-9785-42b1-87a9-622c75a32d12"
+					name="menu_MRP_1"
+					robustPath=""
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div/section/div/div/div[2]/div[1]/div[1]/div[3]//span[@innertext='MRP 1']
+					</item>
+					<item
+					capname="inputtag"
+					id="82f0a2e7-d092-4d6d-bc0a-9052d52b6f12"
+					name="txt_MRP_Group"
+					robustPath="/dom[@domain='dole-d4h-simplemdg-web.cfapps.ap11.hana.ondemand.com']//div[#'__bar2-containerContent']//input[@type='text']"
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[@class='sapMITBContainerContent']//section/div/div[1]/div[2]/div/div/input[@type='text']
+					</item>
+					<item
+					capname="inputtag"
+					id="e53d642e-cd82-4a3c-84ae-282ac5314b40"
+					name="txt_Search_MRP_Group"
+					robustPath="/dom[@domain='dole-d4h-simplemdg-web.cfapps.ap11.hana.ondemand.com']/element"
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div/header/div[2]/div/div[2]//form/input[@type='search']
+					</item>
+					<item
+					capname="divtag"
+					id="09efaa66-e4af-46ce-8135-7bf98546d953"
+					name="bnt_Search_MRP_Group_Action"
+					robustPath="/dom[@domain='dole-d4h-simplemdg-web.cfapps.ap11.hana.ondemand.com']/element"
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div/header/div[2]/div/div[2]//form/div[2]
+					</item>
+					<item
+					capname="spantag"
+					id="705e8035-0878-4d45-938a-384a963b74df"
+					name="lb_Select_MRP_Group"
+					robustPath=""
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div/section//table/tbody/tr[2]/?/?/span[@innertext=$varMRP_Group]
+					</item>
+					<item
+					capname="inputtag"
+					id="c6069238-70b9-4d11-9ecb-3418ebd7c194"
+					name="txt_MRP_Type"
+					robustPath="/dom[@domain='dole-d4h-simplemdg-web.cfapps.ap11.hana.ondemand.com']//div[#'__bar1-containerContent']//section/div/div[2]/div[2]/div/div/input[@type='text']"
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[@class='sapMITBContainerContent']//section/div/div[2]/div[2]/div/div/input[@type='text']
+					</item>
+					<item
+					capname="inputtag"
+					id="ec902483-f920-4f67-997a-2edc7e7ae3a8"
+					name="txt_Search_MRP_Type"
+					robustPath="/dom[@domain='dole-d4h-simplemdg-web.cfapps.ap11.hana.ondemand.com']/element"
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div/header/div[2]/div/div[2]//form/input[@type='search']
+					</item>
+					<item
+					capname="divtag"
+					id="09ef80f3-62e1-4315-914b-ad93c2516ce8"
+					name="btn_Search_MRP_Type_Action"
+					robustPath="/dom[@domain='dole-d4h-simplemdg-web.cfapps.ap11.hana.ondemand.com']/element"
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div/header/div[2]/div/div[2]//form/div[2]
+					</item>
+					<item
+					capname="spantag"
+					id="70dc84f9-a9a7-4b1c-90df-89d569df6e05"
+					name="lb_Select_MRP_Type"
+					robustPath=""
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div/section//table/tbody/tr/td[2]/span[@innertext=$varMRP_Type]
+					</item>
+					<item
+					capname="inputtag"
+					id="b3cd2628-5db4-440e-a322-1a002f98c88e"
+					name="txt_MRP_Controller"
+					robustPath="/dom[@domain='dole-d4h-simplemdg-web.cfapps.ap11.hana.ondemand.com']//div[#'__bar2-containerContent']//section/div/div[3]/div[2]/div/div/input[@type='text']"
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[@class='sapMITBContainerContent']//section/div/div[3]/div[2]/div/div/input[@type='text']
+					</item>
+					<item
+					capname="inputtag"
+					id="85ac4539-4014-4bfa-8202-db54ed98acb5"
+					name="txt_Search_MRP_Controller"
+					robustPath="/dom[@domain='dole-d4h-simplemdg-web.cfapps.ap11.hana.ondemand.com']/element"
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div/header/div[2]/div/div[2]//form/input[@type='search']
+					</item>
+					<item
+					capname="divtag"
+					id="f61cc3e0-410e-4770-90d5-3afb2f7ac9f4"
+					name="btn_Search_MRP_Controller_Action"
+					robustPath="/dom[@domain='dole-d4h-simplemdg-web.cfapps.ap11.hana.ondemand.com']/element"
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div/header/div[2]/div/div[2]//form/div[2]
+					</item>
+					<item
+					capname="spantag"
+					id="20f69ebf-2330-48e9-a346-aa53be0f9f63"
+					name="lb_Select_MRP_Controller"
+					robustPath="/dom[@domain='dole-d4h-simplemdg-web.cfapps.ap11.hana.ondemand.com']//div[#'sap-ui-static']//tbody/tr[2]/td[3]/span[@innertext='D00']"
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div[9]/section//table/tbody/tr[2]/?/?/span[@innertext=$varMRP_Controller]
+					</item>
+					<item
+					capname="inputtag"
+					id="e76e880e-cfa1-45c6-8ca7-80104d0f6f24"
+					name="txt_Lot_Sizing_Procedure"
+					robustPath="/dom[@domain='dole-d4h-simplemdg-web.cfapps.ap11.hana.ondemand.com']//div[#'__bar0-containerContent']//input[@value='EX ']"
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[@class='sapMDialogScrollCont']/div//section/div/div[4]/div[2]//input[@type='text']
+					</item>
+					<item
+					capname="inputtag"
+					id="c84e564f-8ef3-40a6-b70a-41d1ade35d48"
+					name="txt_Maximum_Stock_Level"
+					robustPath="/dom[@domain='dole-d4h-simplemdg-web.cfapps.ap11.hana.ondemand.com']//div[#'__bar0-containerContent']//section/div/div[5]/div[2]/div/div/input[@type='text']"
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[@class='sapMITBContainerContent']/div//section/div/div[5]/div[2]//input[@type='text']
+					</item>
+					<item
+					capname="spantag"
+					id="ddd17ce2-fac5-4339-afee-bfc063ce8d48"
+					name="menu_MRP_2"
+					robustPath="/dom[@domain='dole-d4h-simplemdg-web.cfapps.ap11.hana.ondemand.com']//div[#'__dialog2-scrollCont']//span[@innertext='MRP 2']"
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[@class='sapMDialogScrollCont']/div[2]/div[1]/div[1]/div[4]//span[@innertext='MRP 2']
+					</item>
+					<item
+					capname="inputtag"
+					id="d8d4ed05-01dc-4f71-8216-346857757b5c"
+					name="txt_Procurement_Type"
+					robustPath="/dom[@domain='dole-d4h-simplemdg-web.cfapps.ap11.hana.ondemand.com']//div[#'__bar0-containerContent']//input[@type='text']"
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[@class='sapMITBContainerContent']/div//section/div/div[1]/div[2]//input[@type='text']
+					</item>
+					<item
+					capname="inputtag"
+					id="197f8617-30c1-447a-9c95-99ada15fbb77"
+					name="txt_Backflush"
+					robustPath="/dom[@domain='dole-d4h-simplemdg-web.cfapps.ap11.hana.ondemand.com']//div[#'__bar0-containerContent']//input[@value='1']"
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[@class='sapMITBContainerContent']/div//section/div/div[5]/div[2]//input[@type='text']
+					</item>
+					<item
+					capname="inputtag"
+					id="1c9e767c-a653-4f30-ba9c-68447ce4b6c1"
+					name="txt_In_House_Production_Time"
+					robustPath="/dom[@domain='dole-d4h-simplemdg-web.cfapps.ap11.hana.ondemand.com']//div[#'__bar0-containerContent']//section/div/div[7]/div[2]/div/div/input[@type='text']"
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[@class='sapMITBContainerContent']/div//section/div/div[7]/div[2]//input[@type='text']
+					</item>
+					<item
+					capname="divtag"
+					id="e83a29b9-75f1-41ff-8666-b6b3d976d25a"
+					name="menu_MRP_3"
+					robustPath="/dom[@domain='dole-d4h-simplemdg-web.cfapps.ap11.hana.ondemand.com']//div[#'__dialog2-scrollCont']/div[2]/div[1]/div[1]/div[5]/div[1]/div[1]"
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[@class='sapMDialogScrollCont']/div[2]/div[1]/div[1]/div[5]/div[1]/div[1]
+					</item>
+					<item
+					capname="inputtag"
+					id="e9bc344e-c9ed-4719-a4a5-fed25bc9ee05"
+					name="txt_Period_Indicator"
+					robustPath="/dom[@domain='dole-d4h-simplemdg-web.cfapps.ap11.hana.ondemand.com']//div[#'__bar0-containerContent']//input[@type='text']"
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[@class='sapMITBContainerContent']//section/div/div[1]/div[2]/div/div[1]/input[@type='text']
+					</item>
+					<item
+					capname="inputtag"
+					id="f9e2ffd9-257a-45cf-86cb-a772a0a68646"
+					name="txt_Search_Period_Indicator"
+					robustPath="/dom[@domain='dole-d4h-simplemdg-web.cfapps.ap11.hana.ondemand.com']/element"
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div/header/div[2]/div/div[2]//form/input[@type='search']
+					</item>
+					<item
+					capname="divtag"
+					id="b20250c9-6f77-4c8b-8235-7967f7141216"
+					name="btn_Search_Period_Indicator_Action"
+					robustPath="/dom[@domain='dole-d4h-simplemdg-web.cfapps.ap11.hana.ondemand.com']/element"
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div/header/div[2]/div/div[2]//form/div[2]
+					</item>
+					<item
+					capname="spantag"
+					id="3fe06d36-3281-46fc-9e9b-262c13fac871"
+					name="lb_Select_Period_Indicator"
+					robustPath=""
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[]/?/?/table/tbody/tr/td[2]/span[@innertext=$varPeriod_Indicator]
+					</item>
+					<item
+					capname="webelement"
+					id="be3a4ccb-76b3-4de2-bde3-0619f62b4078"
+					name="btn_ADD_Plant"
+					robustPath="/dom[@domain='dole-d4h-simplemdg-web.cfapps.ap11.hana.ondemand.com']//div[#'sap-ui-static']//tag[@innertext='Add']"
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div/footer/div/button[1]//tag[@innertext='Add']
+					</item>
+				</folder>
+				<folder
+				capname="unknown"
+				id="b2058d79-4b66-4915-a0b1-42a53f6f7f23"
+				isrooted="False"
+				name="SALES_ORG_DATA"
+				searchtimeout="0ms">
+					<item
+					capname="webelement"
+					id="fd260160-78de-4cf6-9701-08d0b43026f6"
+					name="menu_SALES_ORG_DATA"
+					robustPath="/dom[@domain='dole-d4h-simplemdg-web.cfapps.ap11.hana.ondemand.com']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div[2]/div/div/div/div/div[2]/div/header/div[2]/div/div[2]/div/button[6]/span/span/tag"
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div[2]/div/div/div/div/div/div/header/div[2]/div/div[2]/div/button[6]//tag[@innertext='Sales Org Data']
+					</item>
+					<item
+					capname="spantag"
+					id="f4fe66d2-a87c-4d2c-be75-08ef4dabfc4f"
+					name="btn_Add_Sale_Org"
+					robustPath="/dom[@domain='dole-d4h-simplemdg-web.cfapps.ap11.hana.ondemand.com']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div[2]/div/div/div/div/div[2]/div/div/div/section[2]/section[6]/div[2]/div/div/div/div[1]/div/div/div/div[1]/button[@title='Add']/span[1]/span"
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div[2]/div/div/div/div/div/div/div/div/section[2]/section[6]/div[2]/div/div/div/div[1]/div/div/div/div[1]/button[@title='Add']/span[1]/span
+					</item>
+					<item
+					capname="inputtag"
+					id="f346bf6e-32d6-468f-9861-b08d3b5bfd25"
+					name="txt_Sales_Organization"
+					robustPath=""
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div[]/section/div/div/div[1]/div[2]//section/div/div[1]/div[2]//input[@type='text']
+					</item>
+					<item
+					capname="inputtag"
+					id="5fa62e70-4e29-4193-8246-4924e9608bb0"
+					name="txt_Search_Sales_Org"
+					robustPath=""
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div/header/div[2]/div/div[2]//form/input[@type='search']
+					</item>
+					<item
+					capname="divtag"
+					id="ef79169a-7c84-45c8-8702-d4016700ae87"
+					name="btn_Search_Sales_Org_Action"
+					robustPath=""
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div/header/div[2]/div/div[2]//form/div[2]
+					</item>
+					<item
+					capname="spantag"
+					id="18a37825-fb03-41a3-8938-ca27497c123c"
+					name="lb_Select_Sales_Org"
+					robustPath=""
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[]/?/?/table/tbody/tr[1]/td[2]/span[@innertext=$varSales_Organization]
+					</item>
+					<item
+					capname="inputtag"
+					id="e1dfdd35-407a-4b53-bc88-41a95a6543a5"
+					name="txt_Product_Hierarchy"
+					robustPath="/dom[@domain='dole-d4h-simplemdg-web.cfapps.ap11.hana.ondemand.com']//div[#'__bar0-containerContent']//input[@value='']"
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[@class='sapMITBContainerContent']//section/div/div[2]/div[2]/div/div/input[@type='text']
+					</item>
+					<item
+					capname="inputtag"
+					id="dda29f52-8219-4c8f-8616-93b71207d201"
+					name="txt_Search_Product_Hierarchy"
+					robustPath="/dom[@domain='dole-d4h-simplemdg-web.cfapps.ap11.hana.ondemand.com']/element"
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div/header/div[2]/div/div[2]//form/input[@type='search']
+					</item>
+					<item
+					capname="divtag"
+					id="8452a9da-f7f4-4276-9e50-0ca725220fe3"
+					name="btn_Search_Product_Hierarchy_Action"
+					robustPath="/dom[@domain='dole-d4h-simplemdg-web.cfapps.ap11.hana.ondemand.com']/element"
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div/header/div[2]/div/div[2]//form/div[2]
+					</item>
+					<item
+					capname="spantag"
+					id="62177b6e-0d13-4dc7-bcf1-99a8c4b8fe22"
+					name="lb_Select_Product_Hierarchy"
+					robustPath="/dom[@domain='dole-d4h-simplemdg-web.cfapps.ap11.hana.ondemand.com']//div[#'sap-ui-static']//span[@innertext='01010101001']"
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div[]/section//table/tbody/tr[]/td[]/span[@innertext='01010101001']
+					</item>
+					<item
+					capname="webelement"
+					id="fe41311c-2edc-487c-8875-17cb629335d8"
+					name="btn_Add_Sales_Org"
+					robustPath="/dom[@domain='dole-d4h-simplemdg-web.cfapps.ap11.hana.ondemand.com']//div[#'sap-ui-static']//tag[@innertext='Add']"
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div[]/footer/div/button[1]//tag[@innertext='Add']
+					</item>
+				</folder>
+				<folder
+				capname="unknown"
+				id="451c1a47-5d9f-4421-b6ad-bc39b7d99f86"
+				isrooted="False"
+				name="Update_CLASSIFICATION"
+				searchtimeout="0ms">
+					<item
+					capname="webelement"
+					id="31f07bd1-e75e-4c84-a5eb-ea7b5bd037b6"
+					name="tab_Classification"
+					robustPath="/dom[@domain='manual-test-s4-2021-simplemdg-web.cfapps.eu10.hana.ondemand.com']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div[2]/div/div/div/div/div[2]/div/header/div[2]/div/div[2]/div/button[3]/span/span/tag"
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//body[#'simplemdg']/div[]/div/div/div/div/div/div[]/section/div/div[]/div/div/div/div/div[]/div/header/div[]/div/div[]/div/button[]//tag[@innertext='Classification']
+					</item>
+					<item
+					capname="divtag"
+					id="5fcad96d-3fc8-4181-9453-77d21a969f6c"
+					name="ckb_Select_All_Class_Type"
+					robustPath="/dom[@domain='manual-test-s4-2021-simplemdg-web.cfapps.eu10.hana.ondemand.com']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div[2]/div/div/div/div/div[2]/div/div/div/section[2]/section[3]/div[2]/div/div/div/div[1]/div/div/div/table/thead/tr/th[2]/div[@title='Select All']/div"
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//body[#'simplemdg']/div[]/div/div/div/div/div/div[]/section/div/div[2]/div/div/div/div/div[]/div/div/div/section[2]/section[3]/div[2]/div/div/div/div[1]//table/thead/tr/th[]/div[@title='Select All' and @visible='True' and @class='sapMCb sapMLIBSelectM']
+					</item>
+					<item
+					capname="button"
+					id="ddb8412f-6258-4752-b3f3-6a6789615cc7"
+					name="btn_Remove_Class_Type"
+					robustPath="/dom[@domain='manual-test-s4-2021-simplemdg-web.cfapps.eu10.hana.ondemand.com']//body[#'simplemdg']//button[@title='Remove']/span[1]/span"
+					searchtimeout="30000ms">
+						/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//body[#'simplemdg']/div[]/div/div/div/div/div/div[]/section/div/div[2]/div/div/div/div/div[]/div/div/div/section[2]/section[3]/div[]/div/div/div/div[1]/div/div/div/div[1]/button[@title='Remove' and @visible='True']
+					</item>
+				</folder>
+			</folder>
+			<folder
+			capname="unknown"
+			id="9fe12830-b00a-45b7-829a-39d7759649f5"
+			isrooted="False"
+			name="Submit_CR"
+			searchtimeout="0ms">
+				<item
+				capname="webelement"
+				id="9db8f153-7a88-4b83-8188-ae0a8155308f"
+				name="btn_SubmitCR"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div[2]/div/div/div/div/div[]/div/header/div[1]/div/div/div[3]/?/?/div/button[]/span/span[]/tag[@innertext='Submit']
+				</item>
+				<item
+				capname="textareatag"
+				id="f836c2d3-0b4b-4dc6-8234-a602383f19d5"
+				name="txt_Comment_Submit"
+				robustPath="/dom[@domain='dole-d4h-simplemdg-web.cfapps.ap11.hana.ondemand.com']//div[#'__dialog6-scrollCont']//textarea[@required='False']"
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[@class='sapMDialogScrollCont']/div[1]/?/?/textarea[@enabled='True']
+				</item>
+				<item
+				capname="webelement"
+				id="c2072c75-c676-48ed-876e-11c2975035be"
+				name="btn_Submit_Confirm"
+				robustPath="/dom[@domain='dole-d4h-simplemdg-web.cfapps.ap11.hana.ondemand.com']//div[#'sap-ui-static']//tag[@innertext='Submit']"
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div/footer/div/button[1]//tag[@innertext='Submit']
+				</item>
+				<item
+				capname="spantag"
+				id="2be0a755-3d7c-44c8-a84a-34aaa0899e57"
+				name="lb_CR_message"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[@class='sapMDialogScrollCont']/span[@visible='True' and @tagname='span']
+				</item>
+				<item
+				capname="webelement"
+				id="fd075fa0-3e09-4ef0-bd05-5ddea26a2b5b"
+				name="btn_OK"
+				robustPath="/dom[@domain='dole-d4h-simplemdg-web.cfapps.ap11.hana.ondemand.com']//div[#'sap-ui-static']//tag[@innertext='OK']"
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div/footer/div/button[1]//tag[@innertext='OK']
+				</item>
+			</folder>
+			<folder
+			capname="unknown"
+			id="68d07c95-d12d-4f0e-9dcf-d12e16baa79d"
+			isrooted="False"
+			name="Copy_CR"
+			searchtimeout="0ms">
+				<item
+				capname="inputtag"
+				id="5aac7652-7a4f-4383-b548-c4887eff12bd"
+				name="txt_Search_CR"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div[2]/div/div/div/div/div/?/?/section/div/div[]/div/div[]/div[]/div[]/form/input[@type='search' and @visible='True']
+				</item>
+				<item
+				capname="divtag"
+				id="229757a5-6c9f-4e45-84fa-72b20ca4b055"
+				name="btn_Search_CR_Action"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div[2]/div/div/div/div/div/?/?/section/div/div[2]/div/div[1]/div[1]/div[4]/form/div[2]
+				</item>
+				<item
+				capname="spantag"
+				id="b131d7fa-583a-4475-99bf-6ff81b6c22ed"
+				name="lb_Requestor_Status_SUBMIT_Already"
+				robustPath="/dom[@domain='dole-qas-simplemdg-web.cfapps.ap11.hana.ondemand.com']//body[#'simplemdg']//span[@innertext='SUBMITTED']"
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div[2]/div/div/div/div/div[]/?/?/section/div/div[2]/div/div/table/tbody/tr[]/td[4]/?/?/span[@class='sapMObjStatusText' and @visible='True']
+				</item>
+				<item
+				capname="spantag"
+				id="e89a6ca7-e4e6-473c-aab6-110ef115b84f"
+				name="btn_Requestor_Status_DUPLICATED"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div[2]/div/div/div/div/div[3]/?/?/section/div/div[2]/div/div/table/tbody/tr[1]/td[4]/div/span[1]/span[@innertext='DUPLICATED']
+				</item>
+				<item
+				capname="spantag"
+				id="9cfbb1a5-362d-4bd1-978d-c39b8250f131"
+				name="btn_Requestor_Status_DUPLICATE"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div[2]/div/div/div/div/div[3]/?/?/section/div/div[2]/div/div/table/tbody/tr[1]/td[4]/div/span[1]/span[@innertext='DUPLICATE']
+				</item>
+				<item
+				capname="button"
+				id="ea5a358d-1fa2-42c1-9bbf-5a672d3daf75"
+				name="btn_Menu_Option"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div[2]/div/div/div/div/div/?/?/section/div/div[2]/div/div/table/tbody/tr[1]/td[9]/div/div[1]/?/?/button[@visible='True' and @class='sapMBtnBase sapMBtn' and @type='submit']
+				</item>
+				<item
+				capname="divtag"
+				id="d56f9fcc-fb6b-48e9-b994-1f9e5bac4a4f"
+				name="menu_Copy_Request"
+				robustPath="/dom[@domain='dole-d4h-simplemdg-web.cfapps.ap11.hana.ondemand.com']//div[#'sap-ui-static']//div[@innertext='Copy request']"
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']//li[@title='Copy request']/div[@innertext='Copy request']
+				</item>
+				<item
+				capname="divtag"
+				id="00faacad-2f88-4a56-92ec-670727c80318"
+				name="menu_Cencel_Request"
+				robustPath="/dom[@domain='dole-qas-simplemdg-web.cfapps.ap11.hana.ondemand.com']//div[#'sap-ui-static']//div[@innertext='Cancel request']"
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']//li[@title='Cancel request']/div[@innertext='Cancel request']
+				</item>
+				<item
+				capname="webelement"
+				id="92add34a-2f78-4e3b-83a5-5d23c026008b"
+				name="btn_Confirm_Cencel"
+				robustPath="/dom[@domain='dole-qas-simplemdg-web.cfapps.ap11.hana.ondemand.com']//div[#'sap-ui-static']//tag[@innertext='Yes']"
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div[]/footer/div/button[]//tag[@innertext='Yes']
+				</item>
+				<item
+				capname="divtag"
+				id="7648e50c-6253-4c94-b88c-e31a9e6e01e4"
+				name="menu_Ignore_and_Submit"
+				robustPath="/dom[@domain='dole-qas-simplemdg-web.cfapps.ap11.hana.ondemand.com']//div[#'sap-ui-static']//div[@innertext='Ignore and submit']"
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']//li[@title='Ignore and submit']/div[@innertext='Ignore and submit']
+				</item>
+				<item
+				capname="webelement"
+				id="0c251966-96a0-44c4-a68a-5709b0530c66"
+				name="btn_Ignore_Submit_Close"
+				robustPath="/dom[@domain='dole-qas-simplemdg-web.cfapps.ap11.hana.ondemand.com']//div[#'sap-ui-static']//tag[@innertext='Close']"
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div[]/footer/div/button[]//tag[@innertext='Close']
+				</item>
+				<item
+				capname="spantag"
+				id="2db121c6-2c71-4a0e-b682-a2a26f73d0dd"
+				name="lb_Status_REJECTED"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//body[#'simplemdg']/div[]/div/div/div/div/div/div[2]/section/div/div[2]/div/div/div/div/div[]/?/?/section/div/div[]/div/div/table/tbody/tr[]/td[]/?/?/span[@innertext='REJECTED']
+				</item>
+				<item
+				capname="tdtag"
+				id="e6040415-d4b2-45fe-97da-d4f7993df6b7"
+				name="lb_Activate_Status_blank"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//body[#'simplemdg']/div[]/div/div/div/div/div/div[2]/section/div/div[2]/div/div/div/div/div[]/?/?/section/div/div[2]/div/div/table/tbody/tr[1]/td[5]
+				</item>
+				<item
+				capname="spantag"
+				id="efa00bbf-d49d-43ca-ab29-a19a7c253172"
+				name="lb_Status_APPROVED"
+				robustPath="/dom[@domain='dole-qas-simplemdg-web.cfapps.ap11.hana.ondemand.com']//body[#'simplemdg']//span[@innertext='APPROVED']"
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div[2]/div/div/div/div/div[3]/?/?/section/div/div[2]/div/div/table/tbody/tr[]/td[]/?/?/span[@innertext='APPROVED']
+				</item>
+				<item
+				capname="spantag"
+				id="f2d008a1-6715-49d5-a117-58cc942caccd"
+				name="lb_Status_REWORKED"
+				robustPath="/dom[@domain='dole-qas-simplemdg-web.cfapps.ap11.hana.ondemand.com']//body[#'simplemdg']//span[@innertext='REWORKED']"
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div[2]/div/div/div/div/div[]/?/?/section/div/div[2]/div/div/table/tbody/tr[1]/td[4]/div/span[@innertext='REWORKED']
+				</item>
+				<item
+				capname="spantag"
+				id="a17ca6f4-2b79-47a7-9c39-95afe106e772"
+				name="lb_Active_Status_REJECTED"
+				robustPath="/dom[@domain='dole-qas-simplemdg-web.cfapps.ap11.hana.ondemand.com']//body[#'simplemdg']//span[@innertext='REJECTED']"
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div[2]/div/div/div/div/div[3]/?/?/section/div/div[2]/div/div/table/tbody/tr[]/td[]/?/?/span[@innertext='REJECTED']
+				</item>
+				<item
+				capname="spantag"
+				id="3380460d-2926-4563-b098-46ac547980c6"
+				name="lb_Active_Status_ACTIVATED"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//body[#'simplemdg']/div[]/div/div/div/div/div/div[2]/section/div/div[2]/div/div/div/div/div[]/?/?/section/div/div[2]/div/div/table/tbody/tr[]/td[]/?/?/span[@innertext='ACTIVATED']
+				</item>
+				<item
+				capname="spantag"
+				id="a48a92ac-e41d-43f4-b474-fe863721695f"
+				name="lb_Active_Status_DUPLICATED"
+				robustPath="/dom[@domain='dole-qas-simplemdg-web.cfapps.ap11.hana.ondemand.com']//body[#'simplemdg']//span[@innertext='DUPLICATED']"
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div[2]/div/div/div/div/div[3]/?/?/section/div/div[2]/div/div/table/tbody/tr[]/td[]/div/span[]/span[@innertext='DUPLICATED']
+				</item>
+				<item
+				capname="spantag"
+				id="593388e0-6023-40d0-b1f2-7c80a8f9ab75"
+				name="lb_Active_Status_REWORKED"
+				robustPath="/dom[@domain='dole-qas-simplemdg-web.cfapps.ap11.hana.ondemand.com']//body[#'simplemdg']//tbody/tr[1]/td[5]/div/span[@innertext='REWORKED']"
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div[2]/div/div/div/div/div[]/?/?/section/div/div[2]/div/div/table/tbody/tr[1]/td[5]/div/span[@innertext='REWORKED']
+				</item>
+				<item
+				capname="atag"
+				id="04cf6a6f-0ae5-4f3a-b977-31e8e74a982a"
+				name="lb_Select_CR"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div[2]/div/div/div/div/div[3]/?/?/section/div/div[]/div/div/table/tbody/tr[]/td[]/div/div[]/a[@innertext=$varCRNumber]
+				</item>
+				<item
+				capname="webelement"
+				id="81057e62-77a4-4dbd-b411-7e0415de4ff5"
+				name="btn_Edit_Request"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div[2]/div/div/div/div/div[]/div/header/div[1]/div[1]/div/div[3]/?/?/button[@title='Edit Request']/span[]/span[]/tag[@innertext='Edit Request']
+				</item>
+			</folder>
+			<folder
+			capname="unknown"
+			id="c14cf69b-a6a2-4eab-bae4-e67fbd96a4e7"
+			isrooted="False"
+			name="Validation_Status"
+			searchtimeout="0ms">
+				<item
+				capname="spantag"
+				id="2091fe47-1ff0-48bd-b83d-ff9438878970"
+				name="lb_Error_Log"
+				robustPath="/dom[@domain='dole-qas-simplemdg-web.cfapps.ap11.hana.ondemand.com']//div[#'sap-ui-static']//span[@innertext='Error Log']"
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div/header/div/div/div[2]//span[@tagname='span']
+				</item>
+				<item
+				capname="textareatag"
+				id="38f6f6f9-5745-4569-b84d-a2daf698e609"
+				name="txt_Duplication_Error_Mgs"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div/section/div/div/div/div/textarea[@innertext&gt;'#ValidateDuplication: Duplication']
+				</item>
+				<item
+				capname="webelement"
+				id="1ed5d36e-a6cb-4fba-b441-16ef2a57f4a6"
+				name="btn_Close_Error_Mgs"
+				robustPath="/dom[@domain='dole-qas-simplemdg-web.cfapps.ap11.hana.ondemand.com']//div[#'sap-ui-static']//tag[@innertext='Close']"
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div/footer/div/button//tag[@innertext='Close']
+				</item>
+			</folder>
+			<folder
+			capname="unknown"
+			id="a1b8a402-c35b-4af3-bc50-3bace6f1f9f4"
+			isrooted="False"
+			name="Approval"
+			searchtimeout="0ms">
+				<item
+				capname="inputtag"
+				id="f18154ad-a16d-4a07-881a-957d12274148"
+				name="txt_Search_CR"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[@class='sapMITBContainerContent']/div/div/div[1]/div/div[1]/div[]/form[]/input[@type='search' and @visible='True']
+				</item>
+				<item
+				capname="divtag"
+				id="c7ba8587-8e0b-4e4a-9f15-1400f3ccf35c"
+				name="btn_Search_CR_Action"
+				refimgid="c0676d3e-04b3-4074-b21c-bcbb536c8a1a"
+				robustPath="/dom[@domain='dole-qas-simplemdg-web.cfapps.ap11.hana.ondemand.com']//div[#'__bar0-containerContent']//form/div[2]"
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[@class='sapMITBContainerContent']/div/div/div/div/div[]/div[]/form[]/div[@class='sapMSFS sapMSFB' and @visible='True']
+				</item>
+				<item
+				capname="atag"
+				id="281dfa8b-e603-46f4-bf02-b22fec5b6d87"
+				name="lb_Select_CR"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[]/div/div/div/?/?/table/tbody/tr[]/td[]/div/div/a[@innertext=$varCR_Number and @visible='True']
+				</item>
+				<item
+				capname="webelement"
+				id="e499d994-5b9a-4185-8ddc-5e3487efbbba"
+				name="btn_Approve"
+				robustPath="/dom[@domain='dole-qas-simplemdg-web.cfapps.ap11.hana.ondemand.com']//body[#'simplemdg']//tag[@innertext='Approve']"
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div[2]/div/div/div/div/div[]/?/?/section/div/div/div/header/div[1]/div[1]/div/div[3]/div/button[]/span/span[2]/tag[@innertext='Approve']
+				</item>
+				<item
+				capname="webelement"
+				id="42ad55b7-be55-435b-9c66-567e44b5c636"
+				name="btn_Rework"
+				robustPath="/dom[@domain='dole-qas-simplemdg-web.cfapps.ap11.hana.ondemand.com']//body[#'simplemdg']//tag[@innertext='Rework']"
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div[2]/div/div/div/div/div[6]/?/?/section/div/div/div/header/div[1]/div[1]/div/div[]/div/button[]/span/span[]/tag[@innertext='Rework']
+				</item>
+				<item
+				capname="webelement"
+				id="96b34a50-3ca6-44ad-b920-449c3648a294"
+				name="btn_Rework_of_Rework"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div[2]/div/div/div/div/div[]/?/?/section/div/div/div/header/div[1]/div[1]/div/div[]/div/button[]/span/span[]/tag[@innertext='Rework']
+				</item>
+				<item
+				capname="textareatag"
+				id="201cc911-dc9f-4d1d-82db-1e64651fb750"
+				name="txt_Comment_Approval"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div[]/section/div/div/div/div/textarea[@tagname='textarea']
+				</item>
+				<item
+				capname="button"
+				id="3aa4b48e-bd48-4c15-ae20-e3939c666dcc"
+				name="btn_Approve_Confirm"
+				robustPath="/dom[@domain='dole-qas-simplemdg-web.cfapps.ap11.hana.ondemand.com']//div[#'sap-ui-static']/?/?/footer/div/button[1]/span"
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div[]/footer/div/button[@visible='True']
+				</item>
+				<item
+				capname="webelement"
+				id="4a38c059-8adc-43ab-9624-fc0caff55971"
+				name="btn_Rework_Confirm"
+				robustPath="/dom[@domain='dole-qas-simplemdg-web.cfapps.ap11.hana.ondemand.com']//div[#'sap-ui-static']//tag[@innertext='Rework']"
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div[]/footer/div/button[]//tag[@innertext='Rework']
+				</item>
+				<item
+				capname="spantag"
+				id="e40a3ea8-cc4c-47b0-b44a-dbd0c768bd62"
+				name="lb_Request_Status"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[@class='sapMITBContainerContent']/div/div/div/?/?/table/tbody/tr[]/td[]/?/?/span[@innertext='PARTIAL']
+				</item>
+				<item
+				capname="button"
+				id="84e03214-2f49-43ed-aeaf-b981ef3f74c4"
+				name="btn_Menu_Option"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[@class='sapMITBContainerContent']/div/div/div/?/?/table/tbody/tr[]/td[]//button[@visible='True' and @class='sapMBtnBase sapMBtn']
+				</item>
+				<item
+				capname="divtag"
+				id="4430086a-2484-4c75-a9a8-459bc723e3d1"
+				name="mn_Ignore_and_approve"
+				robustPath="/dom[@domain='dole-qas-simplemdg-web.cfapps.ap11.hana.ondemand.com']//div[#'sap-ui-static']//div[@innertext='Ignore and approve']"
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div[]//div[@innertext='Ignore and approve']
+				</item>
+				<item
+				capname="webelement"
+				id="f76ebc28-ffd1-4b7a-b608-bbbd1d16fe7f"
+				name="btn_Reject"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div[2]/div/div/div/div/div[]/?/?/section/div/div/div/header/div[1]/div[1]/div/div[]/div/button[]/span/span[]/tag[@innertext=' Reject']
+				</item>
+				<item
+				capname="webelement"
+				id="2aa1daf8-114c-458b-bb30-b5cee48bdca8"
+				name="btn_Reject_Confirm"
+				robustPath="/dom[@domain='dole-qas-simplemdg-web.cfapps.ap11.hana.ondemand.com']//div[#'sap-ui-static']//tag[@innertext='Reject']"
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div[]/footer/div/button[]//tag[@innertext='Reject']
+				</item>
+				<item
+				capname="webelement"
+				id="fbd7950c-5428-4ad9-b6e0-1b6e89ce34a7"
+				name="btn_Rework_by_Requestor"
+				robustPath="/dom[@domain='dole-qas-simplemdg-web.cfapps.ap11.hana.ondemand.com']//div[#'sap-ui-static']//tag[@innertext='Requestor']"
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div[]/footer/div/button[]//tag[@innertext='Requestor']
+				</item>
+				<item
+				capname="tdtag"
+				id="8205d351-c368-4391-9aba-818b21f71ea7"
+				name="lb_Verify_No_Data"
+				robustPath="/dom[@domain='dole-qas-simplemdg-web.cfapps.ap11.hana.ondemand.com']//div[#'__bar0-containerContent']//td[@innertext='No data']"
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[@class='sapMITBContainerContent']/div/div/div/?/?/table/tbody/tr/td[@innertext='No data']
+				</item>
+				<item
+				capname="button"
+				id="29cdb24c-31ac-4542-b56e-aade4e5973cd"
+				name="btn_Reject_Done"
+				robustPath="/dom[@domain='dole-qas-simplemdg-web.cfapps.ap11.hana.ondemand.com']//div[#'sap-ui-static']/?/?/footer/div/button[1]/span"
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div[]/footer/div/button[@class='sapMBtnBase sapMBtn sapMBarChild']
+				</item>
+			</folder>
+			<folder
+			capname="unknown"
+			id="61f154a1-c087-44d9-9591-decfd04222c7"
+			isrooted="False"
+			name="Stewards"
+			searchtimeout="0ms">
+				<item
+				capname="spantag"
+				id="48bc2f44-5c56-4d72-9d1d-7145c96f5c29"
+				name="mn_Stewards"
+				robustPath="/dom[@domain='dole-qas-simplemdg-web.cfapps.ap11.hana.ondemand.com']//body[#'simplemdg']//span[@innertext='Stewards ⁝']"
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//body[#'simplemdg']/div[]/div/div/div/div//section/div/div[]/header/div/div/div[]/div[]/div[]/div[]/div[]/span[@innertext='Stewards ⁝']
+				</item>
+				<item
+				capname="spantag"
+				id="5d680674-7adf-4498-84f3-3d9640c1d9bf"
+				name="mn_Activation_Requests"
+				robustPath="/dom[@domain='dole-qas-simplemdg-web.cfapps.ap11.hana.ondemand.com']//div[#'sap-ui-static']//span[@innertext='Activation Requests']"
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div[]/div/div/div/div[]/div/div[]//span[@innertext='Activation Requests']
+				</item>
+				<item
+				capname="inputtag"
+				id="1d22f9b2-a098-433e-8de0-ce26af21e53d"
+				name="txt_Search_CR"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div[2]/div/div/div/div/div[]/?/?/section/div/div[]/div/div/div[]/div/div[]/div[]/form[]/input[@type='search' and @visible='True']
+				</item>
+				<item
+				capname="divtag"
+				id="5eeda0fc-dbaf-40c6-8f51-a2c2e05deee7"
+				name="btn_Search_CR_Action"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div[2]/div/div/div/div/div[@visible='True']/?/?/section/div/div[2]/div/div/div[1]/div/div[1]/div[4]/form[]/div[2]
+				</item>
+				<item
+				capname="button"
+				id="414c8a6e-2dd2-4404-824c-abd28f79ee42"
+				name="btn_menu_Option"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div[2]/div/div/div/div/div[@visible='True']/?/?/section/div/div[2]/div/div/div/?/?/table/tbody/tr[1]/td[]/div/div[]/?/?/button
+				</item>
+				<item
+				capname="divtag"
+				id="478cc2c6-24ab-4d33-8b63-e273e91b2b97"
+				name="mn_Assign_to_me"
+				robustPath="/dom[@domain='dole-qas-simplemdg-web.cfapps.ap11.hana.ondemand.com']//div[#'sap-ui-static']//div[@innertext='Assign to me']"
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']//li[@title='Assign to me']/div[@innertext='Assign to me']
+				</item>
+				<item
+				capname="divtag"
+				id="bafd838b-940f-4c9d-9e96-c3745e10a7f5"
+				name="mn_Approval"
+				robustPath="/dom[@domain='dole-qas-simplemdg-web.cfapps.ap11.hana.ondemand.com']//div[#'sap-ui-static']//div[@innertext='Approve']"
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']//li[@title='Approve']/div[@innertext='Approve']
+				</item>
+				<item
+				capname="webelement"
+				id="61e17040-6dd0-42d5-963c-8612b788411b"
+				name="btn_OK_Confirm"
+				robustPath="/dom[@domain='dole-qas-simplemdg-web.cfapps.ap11.hana.ondemand.com']//div[#'sap-ui-static']/?/?/footer/div/button[1]/span"
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div[]/footer/div/button[]/span/span/tag[@innertext='OK']
+				</item>
+				<item
+				capname="webelement"
+				id="03bec74e-4e4f-4b91-ae35-4b6148d882c6"
+				name="btn_Confirm_Rework"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div[]/footer/div/button[]//tag[@innertext='Confirm']
+				</item>
+				<item
+				capname="divtag"
+				id="1b2e3242-38fc-4d38-8300-e4ee242f5ca0"
+				name="mn_Ignore_and_Activate"
+				robustPath="/dom[@domain='dole-qas-simplemdg-web.cfapps.ap11.hana.ondemand.com']//div[#'sap-ui-static']//div[@innertext='Ignore and activate']"
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']//li[@title='Ignore and activate']/div[@innertext='Ignore and activate']
+				</item>
+				<item
+				capname="divtag"
+				id="4190be56-a1d7-42c5-89e4-8d44f39c1471"
+				name="mn_Rework"
+				robustPath="/dom[@domain='dole-qas-simplemdg-web.cfapps.ap11.hana.ondemand.com']//div[#'sap-ui-static']//div[@innertext='Rework']"
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']//li[@title='Rework']/div[@innertext='Rework']
+				</item>
+				<item
+				capname="spantag"
+				id="bb318d5d-4fbf-4d79-8a5d-03a762bb9164"
+				name="lb_Status_ASSIGNED"
+				robustPath="/dom[@domain='dole-qas-simplemdg-web.cfapps.ap11.hana.ondemand.com']//body[#'simplemdg']//span[@innertext='ASSIGNED']"
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div[2]/div/div/div/div/div[@visible='True']/?/?/section/div/div[]/div/div/div/?/?/table/tbody/tr[]/td[]/?/?/span[@innertext='ASSIGNED']
+				</item>
+				<item
+				capname="spantag"
+				id="cbd75a8f-e9f0-4d61-bb66-8ae9a9679318"
+				name="lb_Status_DUPLICATE"
+				robustPath="/dom[@domain='dole-qas-simplemdg-web.cfapps.ap11.hana.ondemand.com']//body[#'simplemdg']//span[@innertext='DUPLICATE']"
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div[2]/div/div/div/div/div[@visible='True']/?/?/section/div/div[2]/div/div/div/?/?/table/tbody/tr[]/td[]/div/span[]/span[@innertext='DUPLICATE']
+				</item>
+				<item
+				capname="spantag"
+				id="e22c08f9-a5eb-4148-a824-eebda1c590e3"
+				name="lb_Status_ACTIVATED"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//body[#'simplemdg']/div[]/div/div/div/div/div/div[]/section/div/div[]/div/div/div/div/div[@visible='True']/?/?/section/div/div[]/div/div/div/?/?/table/tbody/tr[]/td[]/?/?/span[@innertext='ACTIVATED']
+				</item>
+				<item
+				capname="spantag"
+				id="65e75581-bb30-442f-9b3d-dd87e9fdcfbb"
+				name="lb_Status_REJECTED"
+				robustPath="/dom[@domain='dole-qas-simplemdg-web.cfapps.ap11.hana.ondemand.com']//body[#'simplemdg']//section/div/div[2]/div/div/div/div/div[7]/div/section/div/div[2]/div/div/div/div/table/tbody/tr[1]/td[6]/div/span[@innertext='ACTIVATED']"
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div[2]/div/div/div/div/div[@visible='True']/?/?/section/div/div[2]/div/div/div/?/?/table/tbody/tr[]/td[]/?/?/span[@innertext='REJECTED']
+				</item>
+				<item
+				capname="spantag"
+				id="e65a06d5-eb5c-4eee-8934-3e420362e871"
+				name="lb_Status_REWORKED"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div[2]/div/div/div/div/div[]/?/?/section/div/div[2]/div/div/div/?/?/table/tbody/tr[]/td[]/div/span[@innertext='REWORKED']
+				</item>
+				<item
+				capname="divtag"
+				id="609e7568-2a55-4e7c-b08b-9e8c92259746"
+				name="mn_Reject"
+				robustPath="/dom[@domain='dole-qas-simplemdg-web.cfapps.ap11.hana.ondemand.com']//div[#'sap-ui-static']//div[@innertext='Reject']"
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']//li[@title='Reject']/div[@innertext='Reject']
+				</item>
+				<item
+				capname="textareatag"
+				id="993e6b3e-8df6-4e4d-93cc-738cbd909324"
+				name="txt_Comment_Rework"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[@class='sapMDialogScrollCont']/div/div/textarea[@required='False']
+				</item>
+				<item
+				capname="webelement"
+				id="552d914b-ee3c-4809-b615-d1d9b2d37d37"
+				name="btn_Rework_Confirm"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div[]/footer/div/button[]//tag[@innertext='Rework']
+				</item>
+			</folder>
+			<folder
+			capname="unknown"
+			id="62a4a193-6540-49c9-97da-f0feeeaa508b"
+			isrooted="False"
+			name="Master_Data"
+			searchtimeout="0ms">
+				<item
+				capname="spantag"
+				id="b5137d14-46d9-4b0b-9ebb-15dd2f60103f"
+				name="mn_Master_Data"
+				robustPath="/dom[@domain='dole-qas-simplemdg-web.cfapps.ap11.hana.ondemand.com']//body[#'simplemdg']//span[@innertext='Master Data']"
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//body[#'simplemdg']/div[3]/div/div/div/div//section/div/div[]/header/div/div/div[]/div[]/div[]/div[]/div[]/span[@innertext='Master Data' and @visible='True']
+				</item>
+				<item
+				capname="spantag"
+				id="0c7b0513-4a71-49a6-8812-c6299b54842a"
+				name="ckl_Select_Object_Type"
+				robustPath="/dom[@domain='dole-qas-simplemdg-web.cfapps.ap11.hana.ondemand.com']//body[#'simplemdg']//section/div/div[2]/div/div/div/div/div[2]/div/section/div/aside/div/div[2]/div/div[1]/div[2]/div/span[1]"
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div[2]/div/div/div/div/div[]/?/?/section/?/?/aside/div/div[2]/div/div[1]/div[]/div/span[@class='sapMSltLabel' and @visible='True']
+				</item>
+				<item
+				capname="litag"
+				id="b4813a6b-ee47-4bd7-9a6a-8fb929182837"
+				name="mn_Choose_Object_Type"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div[]/div//ul/li[@innertext=$varObjectType and @visible='True']
+				</item>
+				<item
+				capname="inputtag"
+				id="e25ff07a-c9fe-45c3-9f24-c7c6a0dc8509"
+				name="txt_ERP_Number"
+				robustPath="/dom[@domain='dole-qas-simplemdg-web.cfapps.ap11.hana.ondemand.com']//body[#'simplemdg']//section/div/div[2]/div/div/div/div/div[2]/div/section/div/aside/div/div[3]/div/div[1]/div[2]/div/div/input"
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div[2]/div/div/div/div/div[]/?/?/section/?/?/aside/div/div[]/div/div[1]/div[2]//input[@type='text' and @class='sapMInputBaseInner' and @visible='True']
+				</item>
+				<item
+				capname="button"
+				id="33d8ceb9-9a82-4d8d-aa60-1e62cf8f8a3b"
+				name="btn_Search_ERP"
+				robustPath="/dom[@domain='dole-qas-simplemdg-web.cfapps.ap11.hana.ondemand.com']//body[#'simplemdg']//button[@title='Search']/span[1]"
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div[2]/div/div/div/div/div[]/?/?/section/?/?/aside/div/div[3]/div/div[2]/button[@title='Search']
+				</item>
+				<item
+				capname="spantag"
+				id="39171921-260f-402d-ac6f-9bf11048eaf5"
+				name="lb_Verify_ERP_Number"
+				robustPath="/dom[@domain='manual-test-s4-2021-simplemdg-web.cfapps.eu10.hana.ondemand.com']//body[#'simplemdg']//span[@innertext='EDF110']"
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//body[#'simplemdg']/div[]/div/div/div/div/div/div[2]/section/div/div[2]/div/div/div/div/div[]/?/?/section/div/div/?/?/section/div/div/?/?/table/tbody/tr/td[]/span[@innertext=$varMaterial_Number]
+				</item>
+				<item
+				capname="button"
+				id="c31a571e-2daf-46be-ad1f-91937babf601"
+				name="btn_Option_Menu"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//body[#'simplemdg']/div[]/div/div/div/div/div/div[2]/section/div/div[2]/div/div/div/div/div[]/?/?/section/div/div/?/?/section/div/div/?/?/table/tbody/tr/td[]/?/?/button[@visible='True']
+				</item>
+				<item
+				capname="divtag"
+				id="6f29185e-eae2-4f1a-9444-e851340320d0"
+				name="mn_Copy"
+				robustPath="/dom[@domain='dole-qas-simplemdg-web.cfapps.ap11.hana.ondemand.com' and @browsername='Chrome']/element"
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/?/?/ul/?/?/div[@innertext='Copy']
+				</item>
+			</folder>
+			<folder
+			capname="unknown"
+			id="62bd8e90-b0fe-4fb9-a89a-9a883daf7906"
+			isrooted="False"
+			name="LogOut"
+			searchtimeout="0ms">
+				<item
+				capname="spantag"
+				id="d9bcac2b-e8d2-4017-bbaf-c65da87a56a5"
+				name="btn_Select_Profile"
+				robustPath="/dom[@domain='dole-qas-simplemdg-web.cfapps.ap11.hana.ondemand.com']//body[#'simplemdg']//span[@title='Admin MDG']"
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//body[#'simplemdg']/div[]/div/div/div/div/div/div[]/section/div/div[]/header/div/div/span[@visible='True']
+				</item>
+				<item
+				capname="spantag"
+				id="5186041e-5d02-4a5b-bd07-194d825da40a"
+				name="mn_Log_Out"
+				robustPath="/dom[@domain='dole-qas-simplemdg-web.cfapps.ap11.hana.ondemand.com']//div[#'sap-ui-static']//span[@innertext='Logout']"
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div[]/div/div/?/?/ul/li[]//span[@innertext='Logout']
+				</item>
+				<item
+				capname="webelement"
+				id="0e3b013b-bd7a-4973-9821-283088a0001b"
+				name="btn_Confirm_Logout"
+				robustPath="/dom[@domain='dole-qas-simplemdg-web.cfapps.ap11.hana.ondemand.com']//div[#'sap-ui-static']/?/?/footer/div/button[1]/span/span"
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div[]/footer/div/button[]/span/span/tag[@innertext='Yes']
+				</item>
+				<item
+				capname="atag"
+				id="19cc2a28-bd85-4e14-856e-400e115d4b82"
+				name="link_LogOut_Confirm"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'login_back']/span/a[@innertext='Login' and @visible='True']
+				</item>
+			</folder>
+			<folder
+			capname="unknown"
+			id="008a311c-0611-47da-a8af-d303bb551b5b"
+			isrooted="False"
+			name="ACCOUNTING"
+			searchtimeout="0ms">
+				<item
+				capname="webelement"
+				id="4057ae7a-8e0a-4e5e-8c70-46da28165763"
+				name="mn_Accounting_and_Costing"
+				robustPath="/dom[@domain='manual-test-s4-2021-simplemdg-web.cfapps.eu10.hana.ondemand.com']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div[2]/div/div/div/div/div[2]/div/header/div[2]/div/div[2]/div/button[11]/span/span/tag[@innertext='Accounting and Costing']"
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//body[#'simplemdg']/div[]/div/div/div/div/div/div[]/section/div/div[2]/div/div/div/div/div[]/div/header/div[2]/div/div[2]/div/button[]//tag[@innertext='Accounting and Costing']
+				</item>
+				<item
+				capname="button"
+				id="c77210f1-7b1f-49f0-933e-2446d7a21ec1"
+				name="btn_Edit_Accounting"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//body[#'simplemdg']/div[]/div/div/div/div/div/div[2]/section/div/div[2]/div/div/div/div/div[]/div/div/div/section[2]/section[11]/div[2]/div/div/div/div[1]//table/tbody/tr/td[12]/div/div[1]/button[@title='Drill down' and @visible='True']
+				</item>
+				<item
+				capname="inputtag"
+				id="33af9f10-aab5-4610-b074-014483dfb450"
+				name="txt_Currency_Role"
+				robustPath="/dom[@domain='manual-test-s4-2021-simplemdg-web.cfapps.eu10.hana.ondemand.com']//div[#'sap-ui-static']//input[@value='10']"
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div[]/section/div/div/div[2]/div[2]//section/div/div[1]/?/?/div/?/?/input[@type='text' and @visible='True']
+				</item>
+				<item
+				capname="webelement"
+				id="fe86ff0c-a636-4e0f-81da-b3448bcd3888"
+				name="btn_Update_Accounting"
+				robustPath="/dom[@domain='manual-test-s4-2021-simplemdg-web.cfapps.eu10.hana.ondemand.com']//div[#'sap-ui-static']//tag[@innertext='Update']"
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']//div[#'sap-ui-static']/div[]/footer/div/button[]//tag[@innertext='Update']
+				</item>
+			</folder>
+			<basepath>
+				/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Chrome']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="f75d581f-ebdb-42dd-b123-5c5de69c21bb"
+		isrooted="True"
+		name="Logon"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="1d05962c-cd70-484c-9d60-da0b8e79932f"
+			name="txt_email"
+			refimgid="ef9bbade-02ac-4f8e-9d49-606ebfb6c1ad"
+			robustPath="/dom[@domain='aecawiatr.accounts.ondemand.com']//input[#'j_username']"
+			searchtimeout="30000ms">
+				/dom[@domain='aecawiatr.accounts.ondemand.com' and @browsername='Chrome']//input[#'j_username']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="85c8e2b7-8be7-48f9-ab7d-6d3571fb07fb"
+			name="txt_Password"
+			refimgid="566e3859-1c44-4e40-8b64-9d48b27ed58d"
+			robustPath="/dom[@domain='aecawiatr.accounts.ondemand.com']//input[#'j_password']"
+			searchtimeout="30000ms">
+				/dom[@domain='aecawiatr.accounts.ondemand.com' and @browsername='Chrome']//input[#'j_password']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="0248011f-fc5a-4a83-927b-709bec0f12c5"
+			name="btn_LogOn"
+			refimgid="52e3133e-401e-4ef2-b8d1-ce29e68c3669"
+			robustPath="/dom[@domain='aecawiatr.accounts.ondemand.com']//button[#'logOnFormSubmit']/div[@innertext='Log On']"
+			searchtimeout="30000ms">
+				/dom[@domain='aecawiatr.accounts.ondemand.com' and @browsername='Chrome']//button[#'logOnFormSubmit']/div[@innertext='Log On']
+			</item>
+			<item
+			capname="button"
+			id="1731561d-b852-46c5-b0b8-084b92a8e2ce"
+			name="btn_Continue"
+			robustPath="/dom[@domain='aecawiatr.accounts.ondemand.com']//button[#'logOnFormSubmit']"
+			searchtimeout="30000ms">
+				/dom[@domain='aecawiatr.accounts.ondemand.com' and @browsername='Chrome']//button[@id='logOnFormSubmit']
+			</item>
+			<basepath>
+				/dom[@domain='aecawiatr.accounts.ondemand.com' and @browsername='Chrome']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="922d4b05-1d5b-4a66-863c-8cfe7fa97821"
+		isrooted="True"
+		name="SimpleMDG_Admin"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			capname="atag"
+			id="a560f096-95d8-4a8c-bf00-29faf74f9d11"
+			name="btn_Admin"
+			robustPath="/dom[@domain='dole-d4h-simplemdg-web.cfapps.ap11.hana.ondemand.com']//span[#'adminApp']/a[@innertext='Administration']"
+			searchtimeout="30000ms">
+				/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Firefox']//span[#'adminApp']/a[@innertext='Administration']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="284c8179-7522-4533-9b1e-2e35921e127e"
+			name="menu_ProcessDesigner"
+			refimgid="e7178b6b-c17c-468f-a002-39f555fe9e5e"
+			robustPath="/dom[@domain='dole-d4h-simplemdg-web.cfapps.ap11.hana.ondemand.com']//body[#'simplemdg']//span[@innertext='Process Designer']"
+			searchtimeout="30000ms">
+				/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Firefox']//body[#'simplemdg']/div[3]/div/div/div/div[1]/header/div/div/div[2]/div[1]/div[2]/div[1]/?/?/span[@innertext='Process Designer']
+			</item>
+			<item
+			capname="inputtag"
+			id="f5015402-f59d-42cd-b4e2-27b38dde6439"
+			name="txt_Search_Template"
+			robustPath="/dom[@domain='dole-d4h-simplemdg-web.cfapps.ap11.hana.ondemand.com']//body[#'simplemdg']//input[@type='search']"
+			searchtimeout="30000ms">
+				/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Firefox']//body[#'simplemdg']/div[3]/div/div/div/div[2]/div/div/div/div/div[3]/?/?/section/div[1]/div[2]/div[1]/?/?/form/input[@type='search']
+			</item>
+			<item
+			capname="divtag"
+			id="8193436c-0566-4bb1-ae33-540d35a84543"
+			name="btn_Search_Template_Action"
+			robustPath="/dom[@domain='dole-d4h-simplemdg-web.cfapps.ap11.hana.ondemand.com']//body[#'simplemdg']//form/div[2]"
+			searchtimeout="30000ms">
+				/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Firefox']//body[#'simplemdg']/div[3]/div/div/div/div[2]/div/div/div/div/div[3]/?/?/section/div[1]/div[2]/div[1]/?/?/form[]/div[2]
+			</item>
+			<item
+			capname="atag"
+			id="45912c91-abf0-4a7f-abed-b4b9b0c07916"
+			name="lb_Select_Template"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Firefox']//body[#'simplemdg']/div[]/div/div/div/div[2]/div/div/div/div/div[]/?/?/section/div[2]/table/tbody/tr/td[2]/div/div[1]/div/a[@innertext=$varTemplate and @visible='True']
+			</item>
+			<item
+			capname="inputtag"
+			id="dcc9f401-3197-4714-bc07-9c60129a0c6d"
+			name="chk_Show_Duplication_Check"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Firefox']//div[@class='sapMITBContainerContent']/div/div/div/div/div/div/div/div[]/div[@title&gt;'Show Duplication Check As']/div/input[@type='checkbox']
+			</item>
+			<item
+			capname="inputtag"
+			id="5eba9029-4db7-4900-b4a4-b52e6e20fff7"
+			name="chk_Bypass_Steward_Review"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Firefox']//div[@class='sapMITBContainerContent']/div/div/div/div/div/div/div/div[]/div[@title='Bypass Steward Review']/div/input[@type='checkbox']
+			</item>
+			<item
+			capname="divtag"
+			id="b871a922-7a21-467d-a0e6-b6464491711c"
+			name="chk_Bypass_Steward_Check"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Firefox']//div[@class='sapMITBContainerContent']/div/div/div/div/div/div/div/div[]/div[@title='Bypass Steward Review']/div
+			</item>
+			<item
+			capname="divtag"
+			id="621f6438-ad59-4a9d-865b-46c4d1ff93fc"
+			name="chk_Duplication_Check"
+			robustPath="/dom[@domain='dole-qas-simplemdg-web.cfapps.ap11.hana.ondemand.com']//div[#'__bar0-containerContent']//div[@title>'Show Duplication Check As']/div"
+			searchtimeout="30000ms">
+				/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Firefox']//div[@class='sapMITBContainerContent']/div/div/div/div/div/div/div/div[]/div[@title&gt;'Show Duplication Check As']/div
+			</item>
+			<item
+			capname="button"
+			id="0f0430b8-d359-44cb-baa5-6011a099b2f8"
+			name="btn_Save_Config"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Firefox']//body[#'simplemdg']/div[]/div/div/div/div[2]/div/div/div/div/div[]/div/div[1]/div/section[2]/div/div[2]//section/div[1]/div[2]/div[1]/button[@title='Save Template']
+			</item>
+			<item
+			capname="button"
+			id="719f6cd7-fa6e-4b17-8dd8-b9d459d19d8a"
+			name="btn_Active_Config"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Firefox']//body[#'simplemdg']/div[]/div/div/div/div[2]/div/div/div/div/div[]/div/div[1]/div/section[2]/div/div[2]/div/div[]/div/div[]/section/div[1]/div[2]/div[2]/button[@title='Activate Template']
+			</item>
+			<folder
+			capname="unknown"
+			id="82e3666e-6847-4a04-9804-567598012759"
+			isrooted="False"
+			name="Workflow_Settings"
+			searchtimeout="0ms">
+				<item
+				capname="divtag"
+				id="91f5f1e3-7c84-41ff-8bc2-05df7da6f6cc"
+				name="mn_Workflow_Settings"
+				robustPath="/dom[@domain='dole-qas-simplemdg-web.cfapps.ap11.hana.ondemand.com']//body[#'simplemdg']//div[@innertext='Workflow Settings']"
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Firefox']//body[#'simplemdg']/div[]/div/div/div/div[2]/div/div/div/div/div[]/div/div[1]/div/section[1]/div/div[2]/div/div[]/section/?/?/ul/li[]/div/?/?/div[@innertext='Workflow Settings']
+				</item>
+				<item
+				capname="divtag"
+				id="78d662fd-d00e-4900-ae14-9123e9e4eca9"
+				name="mn_Condition_Settings"
+				robustPath="/dom[@domain='dole-qas-simplemdg-web.cfapps.ap11.hana.ondemand.com']//body[#'simplemdg']//div[@innertext='Condition Settings']"
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Firefox']//body[#'simplemdg']/div[]/div/div/div/div[2]/div/div/div/div/div[]/div/div[1]/div/section[1]/div/div[2]/div/div[]/section/?/?/ul/li[]//div[@innertext='Condition Settings']
+				</item>
+				<item
+				capname="inputtag"
+				id="bb1420cd-ba63-414f-be2b-61f5e9fe1fe3"
+				name="txt_Search_Condition_Type"
+				robustPath="/dom[@domain='dole-qas-simplemdg-web.cfapps.ap11.hana.ondemand.com']//body[#'simplemdg']/div[3]/div/div/div/div[2]/div/div/div/div/div[4]/div/div[1]/div/section[2]/div/div[2]/div/div[3]/div/section/div[1]/div[2]/div[1]/div/form[@action='https://dole-qas-simplemdg-web.cfapps.ap11.hana.ondemand.com/admin/index.html#/manageConditionTables/Product/AT_MM_ZFER_FR_01/CREATE']/input[@type='search']"
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Firefox']//body[#'simplemdg']/div[]/div/div/div/div[2]/div/div/div/div/div[]/div/div[1]/div/section[2]/div/div[2]/div/div[]/?/?/section/div[1]/div[]/div[1]/?/?/form/input[@type='search']
+				</item>
+				<item
+				capname="divtag"
+				id="9a742bb8-2e33-476c-a07f-3729c3f0e6a0"
+				name="btn_Search_Condition_Type_Action"
+				robustPath="/dom[@domain='dole-qas-simplemdg-web.cfapps.ap11.hana.ondemand.com']//body[#'simplemdg']/div[3]/div/div/div/div[2]/div/div/div/div/div[4]/div/div[1]/div/section[2]/div/div[2]/div/div[3]/div/section/div[1]/div[2]/div[1]/div/form[@action='https://dole-qas-simplemdg-web.cfapps.ap11.hana.ondemand.com/admin/index.html#/manageConditionTables/Product/AT_MM_ZFER_FR_01/CREATE']/div[2]"
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Firefox']//body[#'simplemdg']/div[]/div/div/div/div[2]/div/div/div/div/div[]/div/div[1]/div/section[2]/div/div[]/div/div[]/?/?/section/div[1]/div[]/div[1]/?/?/form[]/div[2]
+				</item>
+				<item
+				capname="button"
+				id="84052245-8d57-4ff6-9a98-09b4bf20b9f9"
+				name="btn_Edit_Condition_Table"
+				robustPath="/dom[@domain='dole-qas-simplemdg-web.cfapps.ap11.hana.ondemand.com']//div[#'__xmlview6--tblConditions']//button/span[1]/span"
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Firefox']//div[]/table/tbody/tr[]/td[]/div/div[1]/button[@title='Edit Condition Table']
+				</item>
+				<item
+				capname="inputtag"
+				id="4d8dced6-427f-4a8d-8b15-c8bbb5febee4"
+				name="btn_Choose_Approver"
+				robustPath="/dom[@domain='dole-qas-simplemdg-web.cfapps.ap11.hana.ondemand.com']//div[#'__xmlview6--tblConditions']//input[@type='text']"
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Firefox']//div[]/table/tbody/tr[1]/td[4]//div[]/div/input[@type='text' and @visible='True']
+				</item>
+				<item
+				capname="inputtag"
+				id="d9aae8b8-b12d-4a8c-ae87-bbe56fce3c32"
+				name="txt_Search_Select_Members"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Firefox']//div[#'sap-ui-static']/div/header/div[2]/div/div[2]//form[]/input[@type='search']
+				</item>
+				<item
+				capname="divtag"
+				id="0b002200-cbfd-4234-9f85-83eae4ef2471"
+				name="btn_Search_Select_Members_Action"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Firefox']//div[#'sap-ui-static']/div/header/div[2]/div/div[2]//form[]/div[2]
+				</item>
+				<item
+				capname="spantag"
+				id="ed2007cd-2284-4acb-9fd3-8ac6ebc17427"
+				name="lb_Select_Members_SYS_APPROVAL"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Firefox']//div[#'sap-ui-static']/div/section//table/tbody/tr/td[2]//span[@innertext='SYSTEM_APPROVER']
+				</item>
+				<item
+				capname="spantag"
+				id="2c248b3b-0abb-43ec-8f44-d285132f771f"
+				name="lb_Select_Members_Admin"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Firefox']//div[#'sap-ui-static']/div/section//table/tbody/tr/td[2]//span[@innertext=$varSYS_APPROVAL]
+				</item>
+				<item
+				capname="button"
+				id="c38ba581-2caf-4615-96f9-587a5d40e7bc"
+				name="btn_Update_Confition_Table"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Firefox']//div/table/tbody/tr[1]/td[]/div/div[]/button[@title='Update Condition Table']
+				</item>
+				<item
+				capname="spantag"
+				id="8d59740d-7c6e-494c-a056-88aee92a3b74"
+				name="btn_Back_Admin"
+				robustPath="/dom[@domain='dole-qas-simplemdg-web.cfapps.ap11.hana.ondemand.com']//body[#'simplemdg']//span[@title='Back']"
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Firefox']//body[#'simplemdg']/div[]/div/div/div/div[2]/div/div/div/div/div[]/div/div[1]/div/section[1]/div/div[2]/div/div[]/header/div/span/span[@title='Back']
+				</item>
+				<item
+				capname="divtag"
+				id="af55c427-edec-4a44-bdd9-cbe4d1930bba"
+				name="mn_Template_Setting"
+				robustPath="/dom[@domain='dole-qas-simplemdg-web.cfapps.ap11.hana.ondemand.com']//body[#'simplemdg']//div[@innertext='Template Setting']"
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Firefox']//body[#'simplemdg']/div[]/div/div/div/div[2]/div/div/div/div/div[]/div/div[1]/div/section[1]/div/div[2]/div/div[2]/section/?/?/ul/li[2]//div[@innertext='Template Setting']
+				</item>
+				<item
+				capname="divtag"
+				id="5fd7bbab-9b0c-491a-a6eb-a063d60457d3"
+				name="mn_Approval_Process"
+				robustPath="/dom[@domain='dole-qas-simplemdg-web.cfapps.ap11.hana.ondemand.com']//body[#'simplemdg']//div[@innertext='Approval Process']"
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Firefox']//body[#'simplemdg']/div[]/div/div/div/div[2]/div/div/div/div/div[]/div/div[1]/div/section[1]/div/div[]/div/div[]/section/?/?/ul/li[]/div/div/div[@innertext='Approval Process']
+				</item>
+				<item
+				capname="button"
+				id="44302116-1652-44f3-97b6-ce0b7b2819a8"
+				name="btn_Add_New_Section"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Firefox']//body[#'simplemdg']/div[]/div/div/div/div[2]/div/div/div/div/div[]/div/div[1]/div/section[2]/div/div[2]/div/div[]/div/div[1]//article/div/div[2]/div/div/div[1]/button[@title='Add New' and @visible='True']
+				</item>
+				<item
+				capname="inputtag"
+				id="c5446d6e-8dc0-4cba-950e-5e95cddcc77c"
+				name="txt_Search_Section"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Firefox']//body[#'simplemdg']/div[]/div/div/div/div[2]/div/div/div/div/div[]/div/div[1]/div/section[2]/div/div[2]/div/div[]/div/div[1]//article/div/div[2]//table/tbody/tr[1]/td[2]/div/div[1]//input[@type='text' and @class='sapMInputBaseInner sapMComboBoxInner']
+				</item>
+				<item
+				capname="spantag"
+				id="5b858ec4-719b-447a-b8b1-3f9977f9e755"
+				name="lb_Select_Section"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Firefox']//div[#'sap-ui-static']/div[]/div/div/?/?/ul/li[]//span[@innertext='PRODUCTDESCRIPTION']
+				</item>
+				<item
+				capname="inputtag"
+				id="3a3f446e-d1aa-45bc-9d33-6eb2e9ad0aeb"
+				name="txt_Section_Order"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Firefox']//body[#'simplemdg']/div[]/div/div/div/div[2]/div/div/div/div/div[]/div/div[1]/div/section[2]/div/div[2]/div/div[]/div/div[1]//article/div/div[2]//table/tbody/tr[1]/td[3]/div/div[1]//input[@type='number' and @class='sapMInputBaseInner']
+				</item>
+				<item
+				capname="button"
+				id="723ec151-b649-4906-ac88-00488daf1028"
+				name="btn_Create_Section_Order"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Firefox']//body[#'simplemdg']/div[]/div/div/div/div[2]/div/div/div/div/div[]/div/div[1]/div/section[2]/div/div[2]/div/div[]/div/div[1]//article/div/div[2]//table/tbody/tr[1]/td[4]/div/div[4]/button[@title='Create Section Orders']
+				</item>
+				<item
+				capname="spantag"
+				id="506b8d61-f3e9-4ea2-b622-86d3fdee0c5a"
+				name="lb_Select_Section_Line"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Firefox']//body[#'simplemdg']/div[]/div/div/div/div[2]/div/div/div/div/div[]/div/div[1]/div/section[2]/div/div[2]/div/div[]/div/div[1]//article/div/div[2]//table/tbody/tr[1]/td[2]/div/div[2]/span[@title='PRODUCTDESCRIPTION']
+				</item>
+				<item
+				capname="button"
+				id="459af725-bf93-40f7-a18f-759e9bc2f0ea"
+				name="btn_Add_Approve_Sequences"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Firefox']//body[#'simplemdg']/div[]/div/div/div/div[2]/div/div/div/div/div[]/div/div[1]/div/section[2]/div/div[2]/div/div[]/div/div[4]//article/header/div[1]/div/div/div[3]/?/?/button[@title='Add New']
+				</item>
+				<item
+				capname="inputtag"
+				id="5d882fff-277b-4819-8785-8cd8cfec4549"
+				name="txt_Approval_Level"
+				robustPath="/dom[@domain='dole-qas-simplemdg-web.cfapps.ap11.hana.ondemand.com']//div[#'__xmlview6--approveSequence']//input[@type='number']"
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Firefox']//div[]/table/tbody/tr/td[2]/div/div[]/div/div/input[@type='number' and @class='sapMInputBaseInner']
+				</item>
+				<item
+				capname="inputtag"
+				id="af817a01-21f6-4db3-922a-6d9568c20364"
+				name="txt_Access_Sequences"
+				robustPath="/dom[@domain='dole-qas-simplemdg-web.cfapps.ap11.hana.ondemand.com']//div[#'__xmlview6--approveSequence']/?/?/tbody/tr/td[4]/div/div[1]/div/div/input[@type='text']"
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Firefox']//div[]/table/tbody/tr/td[4]/div/div[1]/div/div/input[@type='text' and @class='sapMInputBaseInner sapMComboBoxInner']
+				</item>
+				<item
+				capname="spantag"
+				id="3db0bf23-e539-418a-a5e8-30252976c21c"
+				name="lb_Select_Access_Sequences"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Firefox']//div[#'sap-ui-static']/div[]/div//ul/li[]/div/div/div/span/span[@innertext='TRUONG3']
+				</item>
+				<item
+				capname="button"
+				id="93297ec2-f97a-410b-8d58-a75d329cfa82"
+				name="btn_CReate_Access_Sequences"
+				robustPath="/dom[@domain='dole-qas-simplemdg-web.cfapps.ap11.hana.ondemand.com']//div[#'__xmlview6--approveSequence']//button/span[1]/span"
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Firefox']//div[]/table/tbody/tr/td[5]/div/div[4]/button[@title='Create Approve Sequence']
+				</item>
+				<item
+				capname="button"
+				id="5bc0be4c-cd86-4db0-af30-4bbc361026f6"
+				name="btn_Save_Current_Change"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Firefox']//body[#'simplemdg']/div[]/div/div/div/div[]/div/div/div/div/div[]/div/div[]/div/section[]/div/div[]/div/div[]/div/div[]//article/header/div[]/div/div/div[]/?/?/button[@title='Save current changes']
+				</item>
+				<item
+				capname="button"
+				id="1ba92a5a-ac1f-46a2-afc1-1649fb077333"
+				name="btn_Delete_Section_Order"
+				robustPath="/dom[@domain='dole-qas-simplemdg-web.cfapps.ap11.hana.ondemand.com']//body[#'simplemdg']//article/div/div[2]/div/div/table/tbody/tr[2]/td[4]/div/div[3]/button[@title='Delete Section Orders']/span[1]/span"
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Firefox']//body[#'simplemdg']/div[]/div/div/div/div[2]/div/div/div/div/div[]/div/div[1]/div/section[2]/div/div[2]/div/div[]/div/div[1]//article/div/div[2]//table/tbody/tr[2]/td[4]/div/div[3]/button[@title='Delete Section Orders']
+				</item>
+			</folder>
+			<folder
+			capname="unknown"
+			id="04d97fb6-ce78-4409-a3c8-b534cb6873ca"
+			isrooted="False"
+			name="Background_Configuration"
+			searchtimeout="0ms">
+				<item
+				capname="divtag"
+				id="44aee523-d1bc-42db-b034-0063a326a048"
+				name="mn_General_Setting"
+				robustPath="/dom[@domain='dole-qas-simplemdg-web.cfapps.ap11.hana.ondemand.com']//body[#'simplemdg']//div[@innertext='General Setting']"
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Firefox']//body[#'simplemdg']/div[]/div/div/div/div[2]/div/div/div/div/div[]/div/div[1]/div/section[1]/div/div[]/div/div[]/section/?/?/ul/li[]/div/div/div[@innertext='General Setting']
+				</item>
+				<item
+				capname="divtag"
+				id="66a01b01-eeb5-4fcb-a19c-89649ce76101"
+				name="mn_Background_Configuration"
+				robustPath="/dom[@domain='dole-qas-simplemdg-web.cfapps.ap11.hana.ondemand.com']//body[#'simplemdg']//div[@innertext='Background Configuration']"
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Firefox']//body[#'simplemdg']/div[]/div/div/div/div[2]/div/div/div/div/div[]/div/div[1]/div/section[1]/div/div[]/div/div[]/section/?/?/ul/li[]/div/div/div[@innertext='Background Configuration']
+				</item>
+				<item
+				capname="button"
+				id="7dfbfc02-b093-4b31-8cdd-2ae23a8361f4"
+				name="btn_Edit_SLA_Priority"
+				robustPath="/dom[@domain='dole-qas-simplemdg-web.cfapps.ap11.hana.ondemand.com']//body[#'simplemdg']//button[@title='Edit Row']/span[1]/span"
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Firefox']//body[#'simplemdg']/div[]/div/div/div/div[2]/div/div/div/div/div[]/div/div[1]/div/section[2]/div/div[2]/div/div[]/?/?/section/div[2]/table/tbody/tr/td[4]/div/div[1]/button[@title='Edit Row']
+				</item>
+				<item
+				capname="divtag"
+				id="92b8985a-77ee-4da9-bf01-a46a830d650c"
+				name="bl_IsActive"
+				robustPath="/dom[@domain='dole-qas-simplemdg-web.cfapps.ap11.hana.ondemand.com']//body[#'simplemdg']/div[3]/div/div/div/div[2]/div/div/div/div/div[4]/div/div[1]/div/section[2]/div/div[2]/div/div[4]/div/section/div[2]/table/tbody/tr/td[3]/div/div/div"
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Firefox']//body[#'simplemdg']/div[3]/div/div/div/div[2]/div/div/div/div/div[]/div/div[1]/div/section[2]/div/div[2]/div/div[]/?/?/section/div[2]/table/tbody/tr/td[3]/div/div/div/div/div[@class='sapMSwtInner' and @visible='True']
+				</item>
+				<item
+				capname="divtag"
+				id="37fd8864-0391-4a8c-a01d-c113bd4b863d"
+				name="bl_IsActive_Status"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Firefox']//body[#'simplemdg']/div[]/div/div/div/div[2]/div/div/div/div/div[]/div/div[1]/div/section[2]/div/div[]/div/div[]/?/?/section/div[2]/table/tbody/tr/td[3]/div/div/div
+				</item>
+				<item
+				capname="button"
+				id="398edb05-5367-4c8d-8959-0df6e384c412"
+				name="btn_Save_Update"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Firefox']//body[#'simplemdg']/div[]/div/div/div/div[2]/div/div/div/div/div[]/div/div[1]/div/section[2]/div/div[2]/div/div[]/?/?/section/div[2]/table/tbody/tr/td[4]/div/div[2]/button[@title='Update Row']
+				</item>
+			</folder>
+			<folder
+			capname="unknown"
+			id="5d977b01-5e2e-4b29-9d44-865d651ec4ec"
+			isrooted="False"
+			name="Core_Settings"
+			searchtimeout="0ms">
+				<item
+				capname="spantag"
+				id="caa70f21-4d93-4191-b346-9e1db7ee6281"
+				name="mn_Core_Settings"
+				robustPath="/dom[@domain='dole-qas-simplemdg-web.cfapps.ap11.hana.ondemand.com']//body[#'simplemdg']//span[@innertext='Core Settings']"
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Firefox']//body[#'simplemdg']/div[]/div/div/div/div[]/header/div/div/div[]/div[]/div[]/div[]/div/span[@innertext='Core Settings']
+				</item>
+				<item
+				capname="divtag"
+				id="6cbdb6a6-5683-49fc-9e4e-1f223797a27b"
+				name="mn_Scheduled_Requests"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Firefox']//body[#'simplemdg']/div[]/div/div/div/div[]/div/div/div/div/div[]/div/div[]/div/section[]/div/div[]/div/div[]/section/div/ul/li[]/div/div/div[@innertext='Scheduled Requests']
+				</item>
+				<item
+				capname="divtag"
+				id="379a62df-76a8-4c59-91f4-c021cd6eeed9"
+				name="bl_Mass_Action_Process"
+				robustPath="/dom[@domain='dole-qas-simplemdg-web.cfapps.ap11.hana.ondemand.com']//body[#'simplemdg']//div[@title>'Start/Stop Mass Action Pr']/div/div"
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Firefox']//body[#'simplemdg']/div[]/div/div/div/div[]/div/div/div/div/div[]/div/div[]/div/section[]/div/div[]/div/div[]/div/section/div[]/div[]/div[]/div[@title&gt;'Start/Stop Mass Action Pr']/div/div[@class='sapMSwtInner' and @visible='True']
+				</item>
+				<item
+				capname="divtag"
+				id="3e2ea115-71e7-42e9-ac17-7e9346fd85fa"
+				name="bl_Mass_Action_Process_Status"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Firefox']//body[#'simplemdg']/div[]/div/div/div/div[]/div/div/div/div/div[]/div/div[]/div/section[]/div/div[]/div/div[]/div/section/div[]/div[]/div[]/div[@title&gt;'Start/Stop Mass Action Pr']
+				</item>
+			</folder>
+			<basepath>
+				/dom[@domain='manual-test-s4-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browsername='Firefox']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="61d8052d-ce8c-4e2a-be78-7aca1430b5f7"
+		isrooted="True"
+		name="Logon_Admin"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="0eef5421-8c18-46eb-9ad9-476495de14b5"
+			name="txt_email"
+			refimgid="ef9bbade-02ac-4f8e-9d49-606ebfb6c1ad"
+			robustPath="/dom[@domain='aecawiatr.accounts.ondemand.com']//input[#'j_username']"
+			searchtimeout="30000ms">
+				/dom[@domain='aecawiatr.accounts.ondemand.com' and @browsername='Firefox']//input[#'j_username']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="afd47194-e7cc-41ee-b4ee-6eb6eef19da5"
+			name="txt_Password"
+			refimgid="566e3859-1c44-4e40-8b64-9d48b27ed58d"
+			robustPath="/dom[@domain='aecawiatr.accounts.ondemand.com']//input[#'j_password']"
+			searchtimeout="30000ms">
+				/dom[@domain='aecawiatr.accounts.ondemand.com' and @browsername='Firefox']//input[#'j_password']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="325eef8f-564a-4e52-88ae-7154488ad8f4"
+			name="btn_LogOn"
+			refimgid="52e3133e-401e-4ef2-b8d1-ce29e68c3669"
+			robustPath="/dom[@domain='aecawiatr.accounts.ondemand.com']//button[#'logOnFormSubmit']/div[@innertext='Log On']"
+			searchtimeout="30000ms">
+				/dom[@domain='aecawiatr.accounts.ondemand.com' and @browsername='Firefox']//button[#'logOnFormSubmit']/div[@innertext='Log On']
+			</item>
+			<item
+			capname="button"
+			id="49679f4c-8e43-4946-8d11-95482aca511d"
+			name="btn_Continue"
+			robustPath="/dom[@domain='aecawiatr.accounts.ondemand.com']//button[#'logOnFormSubmit']"
+			searchtimeout="30000ms">
+				/dom[@domain='aecawiatr.accounts.ondemand.com' and @browsername='Firefox']//button[@id='logOnFormSubmit']
+			</item>
+			<basepath>
+				/dom[@domain='aecawiatr.accounts.ondemand.com' and @browsername='Firefox']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+		<var
+		id="44945af1-efde-430d-b0aa-02151729f98f"
+		name="varPriority">
+		</var>
+		<var
+		id="eda3c236-a3ae-4073-8783-131314be548d"
+		name="varTemplate">
+		</var>
+		<var
+		id="54e2b58b-247b-49a7-8c69-ddaf92d766a3"
+		name="varClass_Type">
+		</var>
+		<var
+		id="7f8a5e99-4952-4ba2-8e83-4233bd228078"
+		name="varUnit_of_Measure">
+		</var>
+		<var
+		id="016443c3-528d-45db-822d-6081d8958103"
+		name="varLaboratory">
+		</var>
+		<var
+		id="c61c1032-51ac-4ad7-ba19-9b034c27ba8e"
+		name="varProduct_Hierarchy_Sale">
+		</var>
+		<var
+		id="e0b6bf06-5e08-4b9a-a8ef-1d4e498b12fd"
+		name="varUnit">
+		</var>
+		<var
+		id="f1eca5bb-9721-492b-9fe7-b83a2f7d7200"
+		name="varX_Plant">
+		</var>
+		<var
+		id="4a74c7f0-3fb3-44f7-857f-6b47e839b48b"
+		name="varPackaging_Materials">
+		</var>
+		<var
+		id="b4778580-43bb-44e7-8da0-51a460a1d755"
+		name="varMaterial_Group">
+		</var>
+		<var
+		id="9d564e4a-6cd7-49b4-8690-83817ce1ed70"
+		name="varVolume_Unit">
+		</var>
+		<var
+		id="a291ed11-c04d-4ca5-ac46-bcbba06f9aa6"
+		name="varEAN_category">
+		</var>
+		<var
+		id="73c4a1c7-483a-4731-875f-3c69441625fb"
+		name="varOrder_unit">
+		</var>
+		<var
+		id="75b5b654-acc0-46e1-a91d-651bb60b8602"
+		name="varPO_Unit">
+		</var>
+		<var
+		id="69fe3922-8e66-4f2f-a14b-e9b5bf23f909"
+		name="varStorage_conditions">
+		</var>
+		<var
+		id="8c4d4433-beb3-4240-bfa9-f3dafdecf256"
+		name="varTemperature">
+		</var>
+		<var
+		id="38ad42b7-e4e7-4e05-b41f-dc3bc7fd2c6c"
+		name="varLabel_type">
+		</var>
+		<var
+		id="399e93bd-e731-404e-9667-f979206a251e"
+		name="varLabel_form">
+		</var>
+		<var
+		id="6aab020f-4d54-4fb1-abec-1b9c95c16053"
+		name="varPurchasing_Key">
+		</var>
+		<var
+		id="29b6e59d-76bc-42cb-8cd9-81233021cceb"
+		name="varPlant">
+		</var>
+		<var
+		id="e4471d76-fcb2-4aef-8dd4-b8ba854cc1bd"
+		name="varPackaging_Mode">
+		</var>
+		<var
+		id="f62ace81-cb8d-4eff-9378-763fd583d4e6"
+		name="varMRP_Group">
+		</var>
+		<var
+		id="ee8e9b1a-8942-4178-b6ff-a26e7b08a6f6"
+		name="varMRP_Type">
+		</var>
+		<var
+		id="40b62fc9-43be-45ec-8bdd-3122a479dec8"
+		name="varMRP_Controller">
+		</var>
+		<var
+		id="c81178aa-b2ce-4040-ae03-92e6ca619ab7"
+		name="varPeriod_Indicator">
+		</var>
+		<var
+		id="f56edb8a-7d57-4d79-9068-f9cd56e24a02"
+		name="varProfit_Center">
+		</var>
+		<var
+		id="ef995ac1-44e7-47ab-9074-0c12e532b34a"
+		name="varSales_Organization">
+		</var>
+		<var
+		id="cbeaa534-587e-4b66-a9f3-66406aa9b01a"
+		name="varProduct_Hierarchy">
+		</var>
+		<var
+		id="8984a923-d795-4068-b1b9-26f56703bf75"
+		name="varUsernameAdmin">
+		</var>
+		<var
+		id="5ba651b2-447a-4249-a77c-e9ef68697445"
+		name="vardomain">
+		</var>
+		<var
+		id="0ee3abfd-68f2-450a-9005-b7091a4873f6"
+		name="varCR_Number">
+		</var>
+		<var
+		id="1e07724c-1bfb-47ed-8b1f-35b78702f47c"
+		name="varCRNumber">
+		</var>
+		<var
+		id="91235f9a-a657-4787-ab5b-a37971a37596"
+		name="varRequestDes">
+		</var>
+		<var
+		id="7654a22e-af81-4ce7-8b78-2e457af06db1"
+		name="varObjectType">
+		</var>
+		<var
+		id="d9e310de-8859-4e17-b93c-870871c3665c"
+		name="varMaterial_Number">
+		</var>
+		<var
+		id="041a0d3a-ebb5-4e5d-8fa0-bc10b8a610bf"
+		name="varSYS_APPROVAL">
+		</var>
+	</variables>
+</repository>
